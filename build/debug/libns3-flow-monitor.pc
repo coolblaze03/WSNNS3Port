@@ -1,0 +1,11 @@
+
+prefix=/usr/local
+libdir=/usr/local/lib
+includedir=/usr/local/include
+
+Name: libns3-flow-monitor
+Description: ns-3 module ns3-flow-monitor
+Version: devel
+Libs: -L${libdir} -Wl,-Bdynamic -lns3-flow-monitor -lns3-internet -lns3-config-store -lns3-tools
+Cflags: -I${includedir}
+

@@ -1,0 +1,11 @@
+
+prefix=/usr/local
+libdir=/usr/local/lib
+includedir=/usr/local/include
+
+Name: libns3-ns3tcp
+Description: ns-3 module ns3-ns3tcp
+Version: devel
+Libs: -L${libdir} -Wl,-Bdynamic -lns3-ns3tcp -lns3-internet -lns3-point-to-point -lns3-csma -lns3-applications
+Cflags: -I${includedir}
+

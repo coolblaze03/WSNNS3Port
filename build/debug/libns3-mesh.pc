@@ -1,0 +1,11 @@
+
+prefix=/usr/local
+libdir=/usr/local/lib
+includedir=/usr/local/include
+
+Name: libns3-mesh
+Description: ns-3 module ns3-mesh
+Version: devel
+Libs: -L${libdir} -Wl,-Bdynamic -lns3-mesh -lns3-internet -lns3-wifi -lns3-bridge -lns3-applications
+Cflags: -I${includedir}
+

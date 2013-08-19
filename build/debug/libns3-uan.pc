@@ -1,0 +1,11 @@
+
+prefix=/usr/local
+libdir=/usr/local/lib
+includedir=/usr/local/include
+
+Name: libns3-uan
+Description: ns-3 module ns3-uan
+Version: devel
+Libs: -L${libdir} -Wl,-Bdynamic -lns3-uan -lns3-network -lns3-energy
+Cflags: -I${includedir}
+

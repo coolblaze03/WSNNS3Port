@@ -1,0 +1,11 @@
+
+prefix=/usr/local
+libdir=/usr/local/lib
+includedir=/usr/local/include
+
+Name: libns3-visualizer
+Description: ns-3 module ns3-visualizer
+Version: devel
+Libs: -L${libdir} -Wl,-Bdynamic -lns3-visualizer -lns3-internet -lns3-wifi -lns3-point-to-point
+Cflags: -I${includedir}
+

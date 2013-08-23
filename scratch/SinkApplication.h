@@ -1556,7 +1556,7 @@ class SinkApplication:public Application{
 
                           message m(buff);
 
-                          NS_LOG_INFO ("Type:" <<m.type << " Rec:"<<m.receiver<<  " got Packet from: "<< m.sender );
+                          NS_LOG_UNCOND("Type:" <<m.type << " Rec:"<<m.receiver<<  " got Packet from: "<< m.sender );
 
                           //message m;
 

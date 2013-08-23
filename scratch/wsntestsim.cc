@@ -86,7 +86,6 @@ main (int argc, char *argv[])
   int sdf = 0; //
   sdf+= 0;
 
-
   // simulation parameters
   uint32_t numPackets = 10000;  // number of packets to send
   double interval = 1;          // seconds
@@ -152,9 +151,9 @@ main (int argc, char *argv[])
   
       Ptr<WSNSinkNode> SinkNode = CreateObject<WSNSinkNode>();
       SinkNode->NodeID = i+100;
-      if (i == 0){
+      //if (i == 0){
         SinkNode->Active = true;
-      }
+     // }
 
       SinkNodes.Add(SinkNode);
 
@@ -218,13 +217,12 @@ main (int argc, char *argv[])
         double rga = yansWifiPhyLayer->GetRxGain ();
         double pst = yansWifiPhyLayer->GetTxPowerStart ();
 
+
     NS_LOG_UNCOND ("Wifi Channel Freq: "  << fre);// wifiPhy.GetAttribute("ChannelFrequencyMhz"));
     NS_LOG_UNCOND ("Wifi Channel Num: "  << cha );//wifiPhy.GetAttribute("ChannelNumber"));
     NS_LOG_UNCOND ("Wifi Channel Num: "  << tga );//wifiPhy.GetAttribute("ChannelNumber"));
     NS_LOG_UNCOND ("Wifi Channel Num: "  << rga );//wifiPhy.GetAttribute("ChannelNumber"));
     NS_LOG_UNCOND ("Wifi Channel Num: "  << pst );//wifiPhy.GetAttribute("ChannelNumber"));
-
-
 
 
   //Need to make a random placement of the nodes. 
@@ -376,6 +374,7 @@ main (int argc, char *argv[])
   Ipv4ListRoutingHelper list;
 
 
+
   //list.Add (staticRouting, 0);
   //list.Add (olsr, 10);
   //internet.SetRoutingHelper (list);
@@ -442,7 +441,7 @@ main (int argc, char *argv[])
         Ptr<SinkApplication> c0 = Create<SinkApplication> ();//SinkNodes.Get(i));
         c0->SetStartTime(Seconds(25.0));
         c0->SetStopTime (Seconds(10000.0));
-        NS_LOG_UNCOND ("Sink NodeID:"  << i);
+        NS_LOG_UNCOND ("Sink NodeID:"  << 100 + i);
         SinkNodes.Get(i)->AddApplication(c0);
   }
        

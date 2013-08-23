@@ -26,7 +26,7 @@
 #include "wsnsensornode.h"
 #include "wsnsinknode.h"
 #include "neighbor.h"
-
+#include "simplerouting.h"
 
 
 
@@ -646,14 +646,39 @@ counter++;
 
 	void SendToSink(message m){
 
-
-			if (SensorNodePtr->sinkAdd.Get() != 0 && SensorNodePtr->sinkAdd.Get() != 1){
+		//RoutingProtocol
+			/*if (SensorNodePtr->sinkAdd.Get() != 0 && SensorNodePtr->sinkAdd.Get() != 1){
 				NS_LOG_INFO (SensorNodePtr->NodeID <<  " Sending Packet to Sink: "<< SensorNodePtr->sinkAdd << " Time:"<<Simulator::Now ().GetSeconds());
 			        m_socket->Connect (InetSocketAddress (SensorNodePtr->sinkAdd,80));
 			     	string mess_output = m.Output();
 				Ptr<Packet> pkt1 = Create<Packet> (reinterpret_cast<const uint8_t*> (mess_output.c_str()), mess_output.length());
 				m_socket->Send (pkt1);
+			}*/
+
+
+		 /* Ptr<Ipv4> stack = SensorNodePtr->GetObject<Ipv4> ();
+		  Ptr<Ipv4RoutingProtocol> rp_Gw = (stack->GetRoutingProtocol ());
+		  Ptr<Ipv4ListRouting> lrp_Gw = DynamicCast<Ipv4ListRouting> (rp_Gw);
+
+		  Ptr<SimpleRouting::RoutingProtocol> srrp_Gw;
+
+		  for (uint32_t i = 0; i < lrp_Gw->GetNRoutingProtocols ();  i++)
+			{
+			  int16_t priority;
+			  Ptr<Ipv4RoutingProtocol> temp = lrp_Gw->GetRoutingProtocol (i, priority);
+			  if (DynamicCast<SimpleRouting::RoutingProtocol> (temp))
+			  {
+				  srrp_Gw = DynamicCast<SimpleRouting::RoutingProtocol> (temp);
+				  srrp_Gw->SendToSink(m);
+			   }
 			}
+			*/
+
+
+		  Ptr<SimpleRouting::RoutingProtocol> srrp_Gw  = SensorNodePtr->GetObject<SimpleRouting::RoutingProtocol> ();
+		  srrp_Gw->SendToSink(m);
+
+
 
 	}
 

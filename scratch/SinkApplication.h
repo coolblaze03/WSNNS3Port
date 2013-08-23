@@ -834,8 +834,8 @@ class SinkApplication:public Application{
           	//SinkNodePtr->processedSeq.push_back(m.sequence);
           	SinkNodePtr->dataMessagesRecieved++;
 
-          	NS_LOG_INFO("Got data message. originator: "<<m.originator<<" sender:"<<m.sender);
-
+          	//NS_LOG_INFO("Got data message. originator: "<<m.originator<<" sender:"<<m.sender);
+          	NS_LOG_UNCOND("Got data message. originator: "<<m.originator<<" sender:"<<m.sender);
 
           	//cout<<"Got data message. originator: "<<m.originator<<" sender:"<<m.sender<<endl;
           }

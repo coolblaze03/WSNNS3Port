@@ -51,7 +51,7 @@ namespace ns3 {
 
             int getNewSeq(){
             		stringstream ss;
-            		ss << NodeID << seqint;
+            		ss << NodeID  << seqint;
             		long int n3 = strtol(ss.str().c_str(), NULL, 10);
             		seqint++;
             		return n3;

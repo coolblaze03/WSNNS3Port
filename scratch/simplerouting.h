@@ -66,6 +66,8 @@ public:
   void processHello(message m);
   void RecvSR (Ptr<Socket> socket);
 
+  void SendToSink(message m);
+
   NeighborSet GetNeighbors(){
 	  return m_ns;
   }
@@ -224,6 +226,8 @@ void RoutingProtocol::RecvSR (Ptr<Socket> socket){
 
 			  //message m;
 
+			  if (m.type != TREESETUP){
+
 			  vector<int>::iterator it;
 			 				it = ProcessedMessages.begin();
 			 				while (true){
@@ -239,6 +243,8 @@ void RoutingProtocol::RecvSR (Ptr<Socket> socket){
 			 				}
 
 			 				 ProcessedMessages.push_back(m.sequence);
+
+			  }
 
 			  switch (m.type){
 
@@ -470,6 +476,45 @@ void RoutingProtocol::SendToNeighbor(message m){
 			m_socket->Send (pkt1);
 
 	  }
+
+}
+
+void RoutingProtocol::SendToSink(message m){
+
+	  //for
+	/*
+	 *
+	 */
+	SinkNode sn;
+	sn.ID = -1;
+	NextHop hd;
+	hd.Hops = -1;
+	typedef map<SinkNode, NextHop>::iterator it_type;
+	for(it_type iterator = m_rt.begin(); iterator != m_rt.end(); iterator++) {
+
+		if (sn.ID == -1 || hd.Hops > (iterator->second).Hops){
+			sn = (iterator->first);
+			hd = (iterator->second);
+		}
+	    // iterator->first = key
+	    // iterator->second = value
+	    // Repeat if you also want to iterate through the second map.
+	}
+
+	if (sn.ID == -1){
+		//nosend
+		NS_LOG_UNCOND("No Sink to Send to");
+		return;
+	}
+
+
+
+	m_socket->Connect (InetSocketAddress (sn.MainAddr,SIMPLEROUTING_PORT_NUMBER));
+	string mess_output = m.Output();
+	Ptr<Packet> pkt1 = Create<Packet> (reinterpret_cast<const uint8_t*> (mess_output.c_str()), mess_output.length());
+	m_socket->Send (pkt1);
+
+
 
 }
 

@@ -835,7 +835,7 @@ class SinkApplication:public Application{
           	SinkNodePtr->dataMessagesRecieved++;
 
           	//NS_LOG_INFO("Got data message. originator: "<<m.originator<<" sender:"<<m.sender);
-          	NS_LOG_UNCOND("Got data message. originator: "<<m.originator<<" sender:"<<m.sender);
+          	//NS_LOG_UNCOND("Got data message. originator: "<<m.originator<<" sender:"<<m.sender);
 
           	//cout<<"Got data message. originator: "<<m.originator<<" sender:"<<m.sender<<endl;
           }
@@ -1556,7 +1556,7 @@ class SinkApplication:public Application{
 
                           message m(buff);
 
-                          NS_LOG_UNCOND("Type:" <<m.type << " Rec:"<<m.receiver<<  " got Packet from: "<< m.sender );
+                         // NS_LOG_UNCOND("Type:" <<m.type << " Rec:"<< SinkNodePtr->NodeID <<  " got Packet from: "<< m.sender );
 
                           //message m;
 

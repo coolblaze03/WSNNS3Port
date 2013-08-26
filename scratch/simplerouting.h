@@ -172,6 +172,7 @@ void RoutingProtocol::Initialize (void)
 
 
 	}
+    NS_LOG_UNCOND ("Routing Start" <<DynamicCast <WSNBaseNode>(GetObject<Node> ())->NodeID << " RS Time:" <<Simulator::Now ().GetSeconds());
 	 //m_socket->SetRecvCallback (MakeCallback (&ns3::SimpleRouting::RoutingProtocol::RecvSR, this));
      m_socket->SetRecvCallback (MakeCallback (&RoutingProtocol::RecvSR,  this));
 	 Simulator::Schedule(Seconds(0.0), &ns3::SimpleRouting::RoutingProtocol::sendHello,this);
@@ -226,7 +227,7 @@ void RoutingProtocol::RecvSR (Ptr<Socket> socket){
 
 			  //message m;
 
-			  if (m.type != TREESETUP){
+			 // if (m.type != TREESETUP){
 
 			  vector<int>::iterator it;
 			 				it = ProcessedMessages.begin();
@@ -244,7 +245,7 @@ void RoutingProtocol::RecvSR (Ptr<Socket> socket){
 
 			 				 ProcessedMessages.push_back(m.sequence);
 
-			  }
+			 /// }
 
 			  switch (m.type){
 
@@ -424,6 +425,8 @@ RoutingProtocol::NotifyInterfaceUp (uint32_t interface)
 	  if (ThisNode->Active){
 		  //schedule broadcast
 		  Simulator::Schedule(Seconds(10.0), &ns3::SimpleRouting::RoutingProtocol::broadcastTreeSetup,this);
+		  NS_LOG_UNCOND ("NIU Time:" <<Simulator::Now ().GetSeconds());
+
 	  }
   }
 
@@ -509,7 +512,7 @@ void RoutingProtocol::SendToSink(message m){
 
 
 
-	m_socket->Connect (InetSocketAddress (sn.MainAddr,SIMPLEROUTING_PORT_NUMBER));
+	m_socket->Connect (InetSocketAddress (sn.MainAddr,80));
 	string mess_output = m.Output();
 	Ptr<Packet> pkt1 = Create<Packet> (reinterpret_cast<const uint8_t*> (mess_output.c_str()), mess_output.length());
 	m_socket->Send (pkt1);
@@ -614,6 +617,7 @@ void RoutingProtocol::TreeSetupHandler(message m, Ipv4Address Sender){
 	//m1.path = m.path;
 	//m1.sequence = m.sequence;
 	//m1.flooding = true;
+	NS_LOG_UNCOND("Tree Setup:"  << DynamicCast <WSNBaseNode>(GetObject<Node> ())->NodeID << " Origin:" << m.originator << " Time:" <<Simulator::Now ().GetSeconds());
 	SendToNeighbor(m1);
 
 

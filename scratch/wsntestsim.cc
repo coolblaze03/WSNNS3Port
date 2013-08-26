@@ -140,7 +140,6 @@ main (int argc, char *argv[])
   
   
 
-
   //for (int i = 0; i < 100; i++){
   //   SensorNodes.Add (c.Get (i));
  // }
@@ -152,13 +151,11 @@ main (int argc, char *argv[])
       SinkNode->NodeID = i+100;
       //if (i == 0){
         SinkNode->Active = true;
-     // }
+      //}
 
       SinkNodes.Add(SinkNode);
 
-  
   }
-
 
 
   // The below set of helpers will help us to put together the wifi NICs we want
@@ -187,7 +184,6 @@ main (int argc, char *argv[])
   // create wifi channel
   Ptr<YansWifiChannel> wifiChannelPtr = wifiChannel.Create ();
   wifiPhy.SetChannel (wifiChannelPtr);
-
 
 
 
@@ -438,15 +434,16 @@ main (int argc, char *argv[])
           
   for (int i = 0; i < 4; i++){ 
         Ptr<SinkApplication> c0 = Create<SinkApplication> ();//SinkNodes.Get(i));
-        c0->SetStartTime(Seconds(25.0));
+        c0->SetStartTime(Seconds(35.0));
         c0->SetStopTime (Seconds(10000.0));
         NS_LOG_UNCOND ("Sink NodeID:"  << 100 + i);
         SinkNodes.Get(i)->AddApplication(c0);
   }
+
        
   for (int i = 0; i < 100; i++){
         Ptr<SensorApplication> c0 = Create<SensorApplication> ();//SensorNodes.Get(i));
-        c0->SetStartTime(Seconds(25.00));
+        c0->SetStartTime(Seconds(35.00));
         c0->SetStopTime (Seconds(10000.0));
         SensorNodes.Get(i)->AddApplication(c0);
   }

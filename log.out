@@ -1,6 +1,8 @@
 Waf: Entering directory `/home/chabli/tarballs/ns-allinone-3.12.1/ns-3.12.1/build'
+[1248/1373] cxx: scratch/wsntestsim.cc -> build/debug/scratch/wsntestsim_1.o
+[1311/1373] cxx_link: build/debug/scratch/wsntestsim_1.o -> build/debug/scratch/wsntestsim
 Waf: Leaving directory `/home/chabli/tarballs/ns-allinone-3.12.1/ns-3.12.1/build'
-'build' finished successfully (15.059s)
+'build' finished successfully (11.114s)
 Wifi Channel Freq: 2412
 Wifi Channel Num: 1
 Wifi Channel Num: 32
@@ -114,332 +116,802 @@ Sink NodeID:100 X:80 Y:78
 Sink NodeID:101 X:35 Y:34
 Sink NodeID:102 X:35 Y:34
 Sink NodeID:103 X:58 Y:49
+Routing Start0 RS Time:0
+Routing Start1 RS Time:0
+Routing Start2 RS Time:0
+Routing Start3 RS Time:0
+Routing Start4 RS Time:0
+Routing Start5 RS Time:0
+Routing Start6 RS Time:0
+Routing Start7 RS Time:0
+Routing Start8 RS Time:0
+Routing Start9 RS Time:0
+Routing Start10 RS Time:0
+Routing Start11 RS Time:0
+Routing Start12 RS Time:0
+Routing Start13 RS Time:0
+Routing Start14 RS Time:0
+Routing Start15 RS Time:0
+Routing Start16 RS Time:0
+Routing Start17 RS Time:0
+Routing Start18 RS Time:0
+Routing Start19 RS Time:0
+Routing Start20 RS Time:0
+Routing Start21 RS Time:0
+Routing Start22 RS Time:0
+Routing Start23 RS Time:0
+Routing Start24 RS Time:0
+Routing Start25 RS Time:0
+Routing Start26 RS Time:0
+Routing Start27 RS Time:0
+Routing Start28 RS Time:0
+Routing Start29 RS Time:0
+Routing Start30 RS Time:0
+Routing Start31 RS Time:0
+Routing Start32 RS Time:0
+Routing Start33 RS Time:0
+Routing Start34 RS Time:0
+Routing Start35 RS Time:0
+Routing Start36 RS Time:0
+Routing Start37 RS Time:0
+Routing Start38 RS Time:0
+Routing Start39 RS Time:0
+Routing Start40 RS Time:0
+Routing Start41 RS Time:0
+Routing Start42 RS Time:0
+Routing Start43 RS Time:0
+Routing Start44 RS Time:0
+Routing Start45 RS Time:0
+Routing Start46 RS Time:0
+Routing Start47 RS Time:0
+Routing Start48 RS Time:0
+Routing Start49 RS Time:0
+Routing Start50 RS Time:0
+Routing Start51 RS Time:0
+Routing Start52 RS Time:0
+Routing Start53 RS Time:0
+Routing Start54 RS Time:0
+Routing Start55 RS Time:0
+Routing Start56 RS Time:0
+Routing Start57 RS Time:0
+Routing Start58 RS Time:0
+Routing Start59 RS Time:0
+Routing Start60 RS Time:0
+Routing Start61 RS Time:0
+Routing Start62 RS Time:0
+Routing Start63 RS Time:0
+Routing Start64 RS Time:0
+Routing Start65 RS Time:0
+Routing Start66 RS Time:0
+Routing Start67 RS Time:0
+Routing Start68 RS Time:0
+Routing Start69 RS Time:0
+Routing Start70 RS Time:0
+Routing Start71 RS Time:0
+Routing Start72 RS Time:0
+Routing Start73 RS Time:0
+Routing Start74 RS Time:0
+Routing Start75 RS Time:0
+Routing Start76 RS Time:0
+Routing Start77 RS Time:0
+Routing Start78 RS Time:0
+Routing Start79 RS Time:0
+Routing Start80 RS Time:0
+Routing Start81 RS Time:0
+Routing Start82 RS Time:0
+Routing Start83 RS Time:0
+Routing Start84 RS Time:0
+Routing Start85 RS Time:0
+Routing Start86 RS Time:0
+Routing Start87 RS Time:0
+Routing Start88 RS Time:0
+Routing Start89 RS Time:0
+Routing Start90 RS Time:0
+Routing Start91 RS Time:0
+Routing Start92 RS Time:0
+Routing Start93 RS Time:0
+Routing Start94 RS Time:0
+Routing Start95 RS Time:0
+Routing Start96 RS Time:0
+Routing Start97 RS Time:0
+Routing Start98 RS Time:0
+Routing Start99 RS Time:0
+Routing Start100 RS Time:0
+NIU Time:0
+Routing Start101 RS Time:0
+NIU Time:0
+Routing Start102 RS Time:0
+NIU Time:0
+Routing Start103 RS Time:0
+NIU Time:0
 Sink NodeID:100
 Sink NodeID:101
 Sink NodeID:102
 Sink NodeID:103
-0 Remaining Energy: 99.1827 Time:25 Run Counter:1
-1 Remaining Energy: 99.185 Time:25 Run Counter:1
-2 Remaining Energy: 99.1871 Time:25 Run Counter:1
-3 Remaining Energy: 99.1843 Time:25 Run Counter:1
-4 Remaining Energy: 99.189 Time:25 Run Counter:1
-5 Remaining Energy: 99.1874 Time:25 Run Counter:1
-6 Remaining Energy: 99.1818 Time:25 Run Counter:1
-7 Remaining Energy: 99.1894 Time:25 Run Counter:1
-8 Remaining Energy: 99.1869 Time:25 Run Counter:1
-9 Remaining Energy: 99.1812 Time:25 Run Counter:1
-10 Remaining Energy: 99.1815 Time:25 Run Counter:1
-11 Remaining Energy: 99.1845 Time:25 Run Counter:1
-12 Remaining Energy: 99.1798 Time:25 Run Counter:1
-13 Remaining Energy: 99.185 Time:25 Run Counter:1
-14 Remaining Energy: 99.184 Time:25 Run Counter:1
-15 Remaining Energy: 99.1811 Time:25 Run Counter:1
-16 Remaining Energy: 99.1845 Time:25 Run Counter:1
-17 Remaining Energy: 99.1825 Time:25 Run Counter:1
-18 Remaining Energy: 99.182 Time:25 Run Counter:1
-19 Remaining Energy: 99.1877 Time:25 Run Counter:1
-20 Remaining Energy: 99.1842 Time:25 Run Counter:1
-21 Remaining Energy: 99.1805 Time:25 Run Counter:1
-22 Remaining Energy: 99.1822 Time:25 Run Counter:1
-23 Remaining Energy: 99.1803 Time:25 Run Counter:1
-24 Remaining Energy: 99.1808 Time:25 Run Counter:1
-25 Remaining Energy: 99.1829 Time:25 Run Counter:1
-26 Remaining Energy: 99.1826 Time:25 Run Counter:1
-27 Remaining Energy: 99.1889 Time:25 Run Counter:1
-28 Remaining Energy: 99.1815 Time:25 Run Counter:1
-29 Remaining Energy: 99.1852 Time:25 Run Counter:1
-30 Remaining Energy: 99.1813 Time:25 Run Counter:1
-31 Remaining Energy: 99.1839 Time:25 Run Counter:1
-32 Remaining Energy: 99.1844 Time:25 Run Counter:1
-33 Remaining Energy: 99.1827 Time:25 Run Counter:1
-34 Remaining Energy: 99.1893 Time:25 Run Counter:1
-35 Remaining Energy: 99.1847 Time:25 Run Counter:1
-36 Remaining Energy: 99.1878 Time:25 Run Counter:1
-37 Remaining Energy: 99.1877 Time:25 Run Counter:1
-38 Remaining Energy: 99.1821 Time:25 Run Counter:1
-39 Remaining Energy: 99.1847 Time:25 Run Counter:1
-40 Remaining Energy: 99.1877 Time:25 Run Counter:1
-41 Remaining Energy: 99.1884 Time:25 Run Counter:1
-42 Remaining Energy: 99.1837 Time:25 Run Counter:1
-43 Remaining Energy: 99.1801 Time:25 Run Counter:1
-44 Remaining Energy: 99.1821 Time:25 Run Counter:1
-45 Remaining Energy: 99.1872 Time:25 Run Counter:1
-46 Remaining Energy: 99.1885 Time:25 Run Counter:1
-47 Remaining Energy: 99.1808 Time:25 Run Counter:1
-48 Remaining Energy: 99.1866 Time:25 Run Counter:1
-49 Remaining Energy: 99.1871 Time:25 Run Counter:1
-50 Remaining Energy: 99.1796 Time:25 Run Counter:1
-51 Remaining Energy: 99.1835 Time:25 Run Counter:1
-52 Remaining Energy: 99.1857 Time:25 Run Counter:1
-53 Remaining Energy: 99.1831 Time:25 Run Counter:1
-54 Remaining Energy: 99.1849 Time:25 Run Counter:1
-55 Remaining Energy: 99.1822 Time:25 Run Counter:1
-56 Remaining Energy: 99.1824 Time:25 Run Counter:1
-57 Remaining Energy: 99.1886 Time:25 Run Counter:1
-58 Remaining Energy: 99.1821 Time:25 Run Counter:1
-59 Remaining Energy: 99.1857 Time:25 Run Counter:1
-60 Remaining Energy: 99.1838 Time:25 Run Counter:1
-61 Remaining Energy: 99.1824 Time:25 Run Counter:1
-62 Remaining Energy: 99.1806 Time:25 Run Counter:1
-63 Remaining Energy: 99.1858 Time:25 Run Counter:1
-64 Remaining Energy: 99.183 Time:25 Run Counter:1
-65 Remaining Energy: 99.1826 Time:25 Run Counter:1
-66 Remaining Energy: 99.1844 Time:25 Run Counter:1
-67 Remaining Energy: 99.1828 Time:25 Run Counter:1
-68 Remaining Energy: 99.18 Time:25 Run Counter:1
-69 Remaining Energy: 99.1802 Time:25 Run Counter:1
-70 Remaining Energy: 99.1828 Time:25 Run Counter:1
-71 Remaining Energy: 99.1845 Time:25 Run Counter:1
-72 Remaining Energy: 99.1837 Time:25 Run Counter:1
-73 Remaining Energy: 99.1814 Time:25 Run Counter:1
-74 Remaining Energy: 99.185 Time:25 Run Counter:1
-75 Remaining Energy: 99.1847 Time:25 Run Counter:1
-76 Remaining Energy: 99.1869 Time:25 Run Counter:1
-77 Remaining Energy: 99.1799 Time:25 Run Counter:1
-78 Remaining Energy: 99.1823 Time:25 Run Counter:1
-79 Remaining Energy: 99.1855 Time:25 Run Counter:1
-80 Remaining Energy: 99.187 Time:25 Run Counter:1
-81 Remaining Energy: 99.1854 Time:25 Run Counter:1
-82 Remaining Energy: 99.1878 Time:25 Run Counter:1
-83 Remaining Energy: 99.1812 Time:25 Run Counter:1
-84 Remaining Energy: 99.1849 Time:25 Run Counter:1
-85 Remaining Energy: 99.1822 Time:25 Run Counter:1
-86 Remaining Energy: 99.1788 Time:25 Run Counter:1
-87 Remaining Energy: 99.1816 Time:25 Run Counter:1
-88 Remaining Energy: 99.1828 Time:25 Run Counter:1
-89 Remaining Energy: 99.1798 Time:25 Run Counter:1
-90 Remaining Energy: 99.1829 Time:25 Run Counter:1
-91 Remaining Energy: 99.1799 Time:25 Run Counter:1
-92 Remaining Energy: 99.1889 Time:25 Run Counter:1
-93 Remaining Energy: 99.1805 Time:25 Run Counter:1
-94 Remaining Energy: 99.1821 Time:25 Run Counter:1
-95 Remaining Energy: 99.188 Time:25 Run Counter:1
-96 Remaining Energy: 99.1815 Time:25 Run Counter:1
-97 Remaining Energy: 99.18 Time:25 Run Counter:1
-98 Remaining Energy: 99.1862 Time:25 Run Counter:1
-99 Remaining Energy: 99.1838 Time:25 Run Counter:1
-NodeID: 100 MessagesR:0 Time:25
-NodeID: 101 MessagesR:0 Time:25
-NodeID: 102 MessagesR:0 Time:25
-NodeID: 103 MessagesR:0 Time:25
-NodeID: 100 MessagesR:0 Time:145
-NodeID: 101 MessagesR:0 Time:145
-NodeID: 102 MessagesR:0 Time:145
-NodeID: 103 MessagesR:0 Time:145
-NodeID: 100 MessagesR:0 Time:265
-NodeID: 101 MessagesR:0 Time:265
-NodeID: 102 MessagesR:0 Time:265
-NodeID: 103 MessagesR:0 Time:265
-0 Remaining Energy: 88.015 Time:325 Run Counter:3000
-1 Remaining Energy: 88.0505 Time:325 Run Counter:3000
-2 Remaining Energy: 88.1414 Time:325 Run Counter:3000
-3 Remaining Energy: 88.2138 Time:325 Run Counter:3000
-4 Remaining Energy: 88.0542 Time:325 Run Counter:3000
-5 Remaining Energy: 88.1361 Time:325 Run Counter:3000
-6 Remaining Energy: 88.0255 Time:325 Run Counter:3000
-7 Remaining Energy: 88.0644 Time:325 Run Counter:3000
-8 Remaining Energy: 88.0975 Time:325 Run Counter:3000
-9 Remaining Energy: 88.0919 Time:325 Run Counter:3000
-10 Remaining Energy: 88.0285 Time:325 Run Counter:3000
-11 Remaining Energy: 88.0258 Time:325 Run Counter:3000
-12 Remaining Energy: 88.0285 Time:325 Run Counter:3000
-13 Remaining Energy: 88.0663 Time:325 Run Counter:3000
-14 Remaining Energy: 88.0353 Time:325 Run Counter:3000
-15 Remaining Energy: 88.026 Time:325 Run Counter:3000
-16 Remaining Energy: 88.0536 Time:325 Run Counter:3000
-17 Remaining Energy: 88.0205 Time:325 Run Counter:3000
-18 Remaining Energy: 88.1213 Time:325 Run Counter:3000
-19 Remaining Energy: 88.0419 Time:325 Run Counter:3000
-20 Remaining Energy: 88.2074 Time:325 Run Counter:3000
-21 Remaining Energy: 88.109 Time:325 Run Counter:3000
-22 Remaining Energy: 88.0279 Time:325 Run Counter:3000
-23 Remaining Energy: 88.0543 Time:325 Run Counter:3000
-24 Remaining Energy: 88.0125 Time:325 Run Counter:3000
-25 Remaining Energy: 88.1144 Time:325 Run Counter:3000
-26 Remaining Energy: 88.0353 Time:325 Run Counter:3000
-27 Remaining Energy: 88.057 Time:325 Run Counter:3000
-28 Remaining Energy: 88.0501 Time:325 Run Counter:3000
-29 Remaining Energy: 88.2098 Time:325 Run Counter:3000
-30 Remaining Energy: 88.0205 Time:325 Run Counter:3000
-31 Remaining Energy: 88.213 Time:325 Run Counter:3000
-32 Remaining Energy: 88.2009 Time:325 Run Counter:3000
-33 Remaining Energy: 88.1567 Time:325 Run Counter:3000
-34 Remaining Energy: 88.0695 Time:325 Run Counter:3000
-35 Remaining Energy: 88.046 Time:325 Run Counter:3000
-36 Remaining Energy: 88.0988 Time:325 Run Counter:3000
-37 Remaining Energy: 88.063 Time:325 Run Counter:3000
-38 Remaining Energy: 88.0783 Time:325 Run Counter:3000
-39 Remaining Energy: 88.2192 Time:325 Run Counter:3000
-40 Remaining Energy: 88.0758 Time:325 Run Counter:3000
-41 Remaining Energy: 88.0545 Time:325 Run Counter:3000
-42 Remaining Energy: 88.2064 Time:325 Run Counter:3000
-43 Remaining Energy: 88.1277 Time:325 Run Counter:3000
-44 Remaining Energy: 88.1906 Time:325 Run Counter:3000
-45 Remaining Energy: 88.1011 Time:325 Run Counter:3000
-46 Remaining Energy: 88.0539 Time:325 Run Counter:3000
-47 Remaining Energy: 88.049 Time:325 Run Counter:3000
-48 Remaining Energy: 88.1378 Time:325 Run Counter:3000
-49 Remaining Energy: 88.0416 Time:325 Run Counter:3000
-50 Remaining Energy: 88.101 Time:325 Run Counter:3000
-51 Remaining Energy: 88.1241 Time:325 Run Counter:3000
-52 Remaining Energy: 88.1764 Time:325 Run Counter:3000
-53 Remaining Energy: 88.1008 Time:325 Run Counter:3000
-54 Remaining Energy: 88.0418 Time:325 Run Counter:3000
-55 Remaining Energy: 88.1618 Time:325 Run Counter:3000
-56 Remaining Energy: 88.128 Time:325 Run Counter:3000
-57 Remaining Energy: 88.0691 Time:325 Run Counter:3000
-58 Remaining Energy: 88.1156 Time:325 Run Counter:3000
-59 Remaining Energy: 88.1545 Time:325 Run Counter:3000
-60 Remaining Energy: 88.2082 Time:325 Run Counter:3000
-61 Remaining Energy: 88.1397 Time:325 Run Counter:3000
-62 Remaining Energy: 88.0309 Time:325 Run Counter:3000
-63 Remaining Energy: 88.0509 Time:325 Run Counter:3000
-64 Remaining Energy: 88.0278 Time:325 Run Counter:3000
-65 Remaining Energy: 88.0265 Time:325 Run Counter:3000
-66 Remaining Energy: 88.0312 Time:325 Run Counter:3000
-67 Remaining Energy: 88.1614 Time:325 Run Counter:3000
-68 Remaining Energy: 88.0467 Time:325 Run Counter:3000
-69 Remaining Energy: 88.0607 Time:325 Run Counter:3000
-70 Remaining Energy: 88.1989 Time:325 Run Counter:3000
-71 Remaining Energy: 88.0373 Time:325 Run Counter:3000
-72 Remaining Energy: 88.0267 Time:325 Run Counter:3000
-73 Remaining Energy: 88.1708 Time:325 Run Counter:3000
-74 Remaining Energy: 88.1932 Time:325 Run Counter:3000
-75 Remaining Energy: 88.1661 Time:325 Run Counter:3000
-76 Remaining Energy: 88.0843 Time:325 Run Counter:3000
-77 Remaining Energy: 88.0387 Time:325 Run Counter:3000
-78 Remaining Energy: 88.1813 Time:325 Run Counter:3000
-79 Remaining Energy: 88.03 Time:325 Run Counter:3000
-80 Remaining Energy: 88.0584 Time:325 Run Counter:3000
-81 Remaining Energy: 88.0522 Time:325 Run Counter:3000
-82 Remaining Energy: 88.0592 Time:325 Run Counter:3000
-83 Remaining Energy: 88.0884 Time:325 Run Counter:3000
-84 Remaining Energy: 88.0381 Time:325 Run Counter:3000
-85 Remaining Energy: 88.0891 Time:325 Run Counter:3000
-86 Remaining Energy: 88.1081 Time:325 Run Counter:3000
-87 Remaining Energy: 88.0338 Time:325 Run Counter:3000
-88 Remaining Energy: 88.1825 Time:325 Run Counter:3000
-89 Remaining Energy: 88.1218 Time:325 Run Counter:3000
-90 Remaining Energy: 88.2077 Time:325 Run Counter:3000
-91 Remaining Energy: 88.0988 Time:325 Run Counter:3000
-92 Remaining Energy: 88.0689 Time:325 Run Counter:3000
-93 Remaining Energy: 88.1442 Time:325 Run Counter:3000
-94 Remaining Energy: 88.1883 Time:325 Run Counter:3000
-95 Remaining Energy: 88.0625 Time:325 Run Counter:3000
-96 Remaining Energy: 88.1815 Time:325 Run Counter:3000
-97 Remaining Energy: 88.1369 Time:325 Run Counter:3000
-98 Remaining Energy: 88.126 Time:325 Run Counter:3000
-99 Remaining Energy: 88.2 Time:325 Run Counter:3000
-NodeID: 100 MessagesR:0 Time:385
-NodeID: 101 MessagesR:0 Time:385
-NodeID: 102 MessagesR:0 Time:385
-NodeID: 103 MessagesR:0 Time:385
-NodeID: 100 MessagesR:0 Time:505
-NodeID: 101 MessagesR:0 Time:505
-NodeID: 102 MessagesR:0 Time:505
-NodeID: 103 MessagesR:0 Time:505
-0 Remaining Energy: 76.5465 Time:625 Run Counter:6000
-1 Remaining Energy: 76.5744 Time:625 Run Counter:6000
-2 Remaining Energy: 76.7614 Time:625 Run Counter:6000
-3 Remaining Energy: 76.9296 Time:625 Run Counter:6000
-4 Remaining Energy: 76.567 Time:625 Run Counter:6000
-5 Remaining Energy: 76.7463 Time:625 Run Counter:6000
-6 Remaining Energy: 76.5571 Time:625 Run Counter:6000
-7 Remaining Energy: 76.5926 Time:625 Run Counter:6000
-8 Remaining Energy: 76.6879 Time:625 Run Counter:6000
-9 Remaining Energy: 76.7286 Time:625 Run Counter:6000
-10 Remaining Energy: 76.5686 Time:625 Run Counter:6000
-11 Remaining Energy: 76.5513 Time:625 Run Counter:6000
-12 Remaining Energy: 76.5973 Time:625 Run Counter:6000
-13 Remaining Energy: 76.6362 Time:625 Run Counter:6000
-14 Remaining Energy: 76.5563 Time:625 Run Counter:6000
-15 Remaining Energy: 76.5624 Time:625 Run Counter:6000
-16 Remaining Energy: 76.6186 Time:625 Run Counter:6000
-17 Remaining Energy: 76.5406 Time:625 Run Counter:6000
-18 Remaining Energy: 76.7516 Time:625 Run Counter:6000
-19 Remaining Energy: 76.5471 Time:625 Run Counter:6000
-20 Remaining Energy: 76.9226 Time:625 Run Counter:6000
-21 Remaining Energy: 76.7401 Time:625 Run Counter:6000
-22 Remaining Energy: 76.563 Time:625 Run Counter:6000
-23 Remaining Energy: 76.6365 Time:625 Run Counter:6000
-24 Remaining Energy: 76.5305 Time:625 Run Counter:6000
-25 Remaining Energy: 76.7518 Time:625 Run Counter:6000
-26 Remaining Energy: 76.5745 Time:625 Run Counter:6000
-27 Remaining Energy: 76.5618 Time:625 Run Counter:6000
-28 Remaining Energy: 76.6334 Time:625 Run Counter:6000
-29 Remaining Energy: 76.9052 Time:625 Run Counter:6000
-30 Remaining Energy: 76.5712 Time:625 Run Counter:6000
-31 Remaining Energy: 76.9245 Time:625 Run Counter:6000
-32 Remaining Energy: 76.9089 Time:625 Run Counter:6000
-33 Remaining Energy: 76.8411 Time:625 Run Counter:6000
-34 Remaining Energy: 76.6036 Time:625 Run Counter:6000
-35 Remaining Energy: 76.55 Time:625 Run Counter:6000
-36 Remaining Energy: 76.6879 Time:625 Run Counter:6000
-37 Remaining Energy: 76.6042 Time:625 Run Counter:6000
-38 Remaining Energy: 76.6774 Time:625 Run Counter:6000
-39 Remaining Energy: 76.9371 Time:625 Run Counter:6000
-40 Remaining Energy: 76.6224 Time:625 Run Counter:6000
-41 Remaining Energy: 76.5745 Time:625 Run Counter:6000
-42 Remaining Energy: 76.9149 Time:625 Run Counter:6000
-43 Remaining Energy: 76.7879 Time:625 Run Counter:6000
-44 Remaining Energy: 76.874 Time:625 Run Counter:6000
-45 Remaining Energy: 76.6854 Time:625 Run Counter:6000
-46 Remaining Energy: 76.5709 Time:625 Run Counter:6000
-47 Remaining Energy: 76.6131 Time:625 Run Counter:6000
-48 Remaining Energy: 76.761 Time:625 Run Counter:6000
-49 Remaining Energy: 76.5515 Time:625 Run Counter:6000
-50 Remaining Energy: 76.7327 Time:625 Run Counter:6000
-51 Remaining Energy: 76.7502 Time:625 Run Counter:6000
-52 Remaining Energy: 76.8584 Time:625 Run Counter:6000
-53 Remaining Energy: 76.7132 Time:625 Run Counter:6000
-54 Remaining Energy: 76.5485 Time:625 Run Counter:6000
-55 Remaining Energy: 76.8484 Time:625 Run Counter:6000
-56 Remaining Energy: 76.766 Time:625 Run Counter:6000
-57 Remaining Energy: 76.5996 Time:625 Run Counter:6000
-58 Remaining Energy: 76.7595 Time:625 Run Counter:6000
-59 Remaining Energy: 76.8179 Time:625 Run Counter:6000
-60 Remaining Energy: 76.9179 Time:625 Run Counter:6000
-61 Remaining Energy: 76.7883 Time:625 Run Counter:6000
-62 Remaining Energy: 76.6007 Time:625 Run Counter:6000
-63 Remaining Energy: 76.5994 Time:625 Run Counter:6000
-64 Remaining Energy: 76.5588 Time:625 Run Counter:6000
-65 Remaining Energy: 76.5661 Time:625 Run Counter:6000
-66 Remaining Energy: 76.5656 Time:625 Run Counter:6000
-67 Remaining Energy: 76.8422 Time:625 Run Counter:6000
-68 Remaining Energy: 76.6345 Time:625 Run Counter:6000
-69 Remaining Energy: 76.6501 Time:625 Run Counter:6000
-70 Remaining Energy: 76.9022 Time:625 Run Counter:6000
-71 Remaining Energy: 76.5646 Time:625 Run Counter:6000
-72 Remaining Energy: 76.5469 Time:625 Run Counter:6000
-73 Remaining Energy: 76.866 Time:625 Run Counter:6000
-74 Remaining Energy: 76.8831 Time:625 Run Counter:6000
-75 Remaining Energy: 76.8565 Time:625 Run Counter:6000
-76 Remaining Energy: 76.656 Time:625 Run Counter:6000
-77 Remaining Energy: 76.6149 Time:625 Run Counter:6000
-78 Remaining Energy: 76.8783 Time:625 Run Counter:6000
-79 Remaining Energy: 76.5401 Time:625 Run Counter:6000
-80 Remaining Energy: 76.5822 Time:625 Run Counter:6000
-81 Remaining Energy: 76.5726 Time:625 Run Counter:6000
-82 Remaining Energy: 76.5879 Time:625 Run Counter:6000
-83 Remaining Energy: 76.7096 Time:625 Run Counter:6000
-84 Remaining Energy: 76.5573 Time:625 Run Counter:6000
-85 Remaining Energy: 76.6962 Time:625 Run Counter:6000
-86 Remaining Energy: 76.7588 Time:625 Run Counter:6000
-87 Remaining Energy: 76.572 Time:625 Run Counter:6000
-88 Remaining Energy: 76.8755 Time:625 Run Counter:6000
-89 Remaining Energy: 76.762 Time:625 Run Counter:6000
-90 Remaining Energy: 76.9015 Time:625 Run Counter:6000
-91 Remaining Energy: 76.7256 Time:625 Run Counter:6000
-92 Remaining Energy: 76.6026 Time:625 Run Counter:6000
-93 Remaining Energy: 76.8145 Time:625 Run Counter:6000
-94 Remaining Energy: 76.8759 Time:625 Run Counter:6000
-95 Remaining Energy: 76.5838 Time:625 Run Counter:6000
-96 Remaining Energy: 76.8774 Time:625 Run Counter:6000
-97 Remaining Energy: 76.806 Time:625 Run Counter:6000
-98 Remaining Energy: 76.7326 Time:625 Run Counter:6000
-99 Remaining Energy: 76.9098 Time:625 Run Counter:6000
-NodeID: 100 MessagesR:0 Time:625
-NodeID: 101 MessagesR:0 Time:625
-NodeID: 102 MessagesR:0 Time:625
-NodeID: 103 MessagesR:0 Time:625
-Interrupted 
+Tree Setup:13 Origin:101 Time:10.1894
+Tree Setup:71 Origin:100 Time:10.1948
+Tree Setup:63 Origin:100 Time:10.2022
+Tree Setup:11 Origin:102 Time:10.2048
+Tree Setup:43 Origin:100 Time:10.2065
+Tree Setup:11 Origin:101 Time:10.209
+Tree Setup:37 Origin:101 Time:10.2145
+Tree Setup:49 Origin:101 Time:10.217
+Tree Setup:57 Origin:101 Time:10.2219
+Tree Setup:37 Origin:102 Time:10.2255
+Tree Setup:93 Origin:100 Time:10.228
+Tree Setup:63 Origin:101 Time:10.2306
+Tree Setup:49 Origin:102 Time:10.2385
+Tree Setup:67 Origin:101 Time:10.2427
+Tree Setup:63 Origin:102 Time:10.2501
+Tree Setup:57 Origin:102 Time:10.2588
+Tree Setup:17 Origin:101 Time:10.2606
+Tree Setup:11 Origin:103 Time:10.2638
+Tree Setup:70 Origin:100 Time:10.2801
+Tree Setup:67 Origin:102 Time:10.296
+Tree Setup:2 Origin:102 Time:10.2977
+Tree Setup:69 Origin:100 Time:10.3126
+Tree Setup:38 Origin:101 Time:10.3527
+Tree Setup:37 Origin:103 Time:10.5741
+Tree Setup:17 Origin:102 Time:10.5951
+Tree Setup:83 Origin:100 Time:10.5994
+Tree Setup:22 Origin:102 Time:10.6236
+Tree Setup:4 Origin:100 Time:10.636
+Tree Setup:22 Origin:101 Time:10.6395
+Tree Setup:97 Origin:100 Time:10.6395
+Tree Setup:22 Origin:103 Time:10.6439
+Tree Setup:21 Origin:100 Time:10.6509
+Tree Setup:4 Origin:101 Time:10.6542
+Tree Setup:4 Origin:102 Time:10.6559
+Tree Setup:49 Origin:103 Time:10.6577
+Tree Setup:11 Origin:100 Time:10.6694
+Tree Setup:75 Origin:100 Time:10.6841
+Tree Setup:36 Origin:100 Time:10.6885
+Tree Setup:63 Origin:103 Time:10.6936
+Tree Setup:17 Origin:103 Time:10.7055
+Tree Setup:43 Origin:103 Time:10.7073
+Tree Setup:36 Origin:101 Time:10.7145
+Tree Setup:17 Origin:100 Time:10.7162
+Tree Setup:36 Origin:102 Time:10.7203
+Tree Setup:38 Origin:102 Time:10.7247
+Tree Setup:38 Origin:103 Time:10.7282
+Tree Setup:96 Origin:100 Time:10.7354
+Tree Setup:31 Origin:100 Time:10.7379
+Tree Setup:25 Origin:100 Time:10.7471
+Tree Setup:73 Origin:100 Time:10.7496
+Tree Setup:68 Origin:100 Time:10.7609
+Tree Setup:28 Origin:100 Time:10.7785
+Tree Setup:25 Origin:101 Time:10.781
+Tree Setup:88 Origin:100 Time:10.7828
+Tree Setup:78 Origin:100 Time:10.7998
+Tree Setup:90 Origin:100 Time:10.8023
+Tree Setup:40 Origin:100 Time:10.8048
+Tree Setup:25 Origin:102 Time:10.814
+Tree Setup:62 Origin:102 Time:10.8314
+Tree Setup:22 Origin:100 Time:10.8367
+Tree Setup:72 Origin:100 Time:10.8433
+Tree Setup:62 Origin:101 Time:10.8534
+Tree Setup:16 Origin:100 Time:10.8578
+Tree Setup:38 Origin:100 Time:10.861
+Tree Setup:67 Origin:103 Time:10.873
+Tree Setup:84 Origin:100 Time:10.8762
+Tree Setup:82 Origin:100 Time:10.8913
+Tree Setup:69 Origin:103 Time:10.9047
+Tree Setup:10 Origin:101 Time:10.912
+Tree Setup:83 Origin:103 Time:10.9189
+Tree Setup:54 Origin:100 Time:10.9233
+Tree Setup:91 Origin:100 Time:10.9692
+Tree Setup:53 Origin:100 Time:10.9717
+Tree Setup:99 Origin:100 Time:11.0088
+Tree Setup:5 Origin:100 Time:11.0425
+Tree Setup:62 Origin:103 Time:11.0572
+Tree Setup:93 Origin:103 Time:11.1131
+Tree Setup:50 Origin:100 Time:11.1382
+Tree Setup:5 Origin:101 Time:11.1529
+Tree Setup:10 Origin:102 Time:11.1651
+Tree Setup:18 Origin:100 Time:11.186
+Tree Setup:74 Origin:102 Time:11.1941
+Tree Setup:48 Origin:102 Time:11.1989
+Tree Setup:41 Origin:100 Time:11.2033
+Tree Setup:41 Origin:101 Time:11.2176
+Tree Setup:5 Origin:102 Time:11.2223
+Tree Setup:41 Origin:102 Time:11.2352
+Tree Setup:10 Origin:103 Time:11.252
+Tree Setup:80 Origin:100 Time:11.2686
+Tree Setup:10 Origin:100 Time:11.2837
+Tree Setup:6 Origin:102 Time:11.2863
+Tree Setup:52 Origin:102 Time:11.2941
+Tree Setup:77 Origin:100 Time:11.3113
+Tree Setup:79 Origin:100 Time:11.3172
+Tree Setup:86 Origin:100 Time:11.3215
+Tree Setup:48 Origin:100 Time:11.3452
+Tree Setup:80 Origin:101 Time:11.3552
+Tree Setup:89 Origin:100 Time:11.3737
+Tree Setup:80 Origin:102 Time:11.3849
+Tree Setup:24 Origin:100 Time:11.3878
+Tree Setup:75 Origin:103 Time:11.3929
+Tree Setup:6 Origin:101 Time:11.4081
+Tree Setup:30 Origin:100 Time:11.4177
+Tree Setup:97 Origin:103 Time:11.4203
+Tree Setup:86 Origin:103 Time:11.4243
+Tree Setup:30 Origin:103 Time:11.4286
+Tree Setup:48 Origin:101 Time:11.4507
+Tree Setup:8 Origin:102 Time:11.4597
+Tree Setup:50 Origin:103 Time:11.4622
+Tree Setup:9 Origin:100 Time:11.5168
+Tree Setup:12 Origin:101 Time:11.5201
+Tree Setup:12 Origin:102 Time:11.53
+Tree Setup:65 Origin:100 Time:11.5603
+Tree Setup:50 Origin:101 Time:11.6065
+Tree Setup:87 Origin:100 Time:11.6106
+Tree Setup:12 Origin:103 Time:11.6124
+Tree Setup:23 Origin:100 Time:11.6222
+Tree Setup:55 Origin:100 Time:11.6316
+Tree Setup:76 Origin:102 Time:11.6359
+Tree Setup:45 Origin:100 Time:11.6418
+Tree Setup:6 Origin:103 Time:11.6462
+Tree Setup:50 Origin:102 Time:11.6496
+Tree Setup:14 Origin:100 Time:11.6587
+Tree Setup:65 Origin:101 Time:11.6612
+Tree Setup:66 Origin:100 Time:11.663
+Tree Setup:65 Origin:102 Time:11.663
+Tree Setup:77 Origin:102 Time:11.6656
+Tree Setup:28 Origin:103 Time:11.6691
+Tree Setup:58 Origin:100 Time:11.6757
+Tree Setup:58 Origin:101 Time:11.6851
+Tree Setup:58 Origin:102 Time:11.6869
+Tree Setup:88 Origin:103 Time:11.6906
+Tree Setup:8 Origin:100 Time:11.6932
+Tree Setup:40 Origin:103 Time:11.7039
+Tree Setup:8 Origin:101 Time:11.7267
+Tree Setup:30 Origin:102 Time:11.7366
+Tree Setup:30 Origin:101 Time:11.7551
+Tree Setup:58 Origin:103 Time:11.8168
+Tree Setup:45 Origin:101 Time:11.8186
+Tree Setup:21 Origin:102 Time:11.8368
+Tree Setup:68 Origin:103 Time:11.8489
+Tree Setup:45 Origin:102 Time:11.8695
+Tree Setup:65 Origin:103 Time:11.878
+Tree Setup:29 Origin:102 Time:11.8849
+Tree Setup:77 Origin:103 Time:11.9339
+Tree Setup:97 Origin:101 Time:11.9356
+Tree Setup:21 Origin:101 Time:11.9418
+Tree Setup:98 Origin:102 Time:11.9639
+Tree Setup:9 Origin:101 Time:11.9754
+Tree Setup:61 Origin:100 Time:11.9884
+Tree Setup:28 Origin:101 Time:12.0007
+Tree Setup:32 Origin:102 Time:12.0476
+Tree Setup:82 Origin:103 Time:12.0561
+Tree Setup:98 Origin:100 Time:12.0582
+Tree Setup:91 Origin:103 Time:12.0648
+Tree Setup:98 Origin:101 Time:12.0712
+Tree Setup:18 Origin:102 Time:12.098
+Tree Setup:9 Origin:102 Time:12.1354
+Tree Setup:94 Origin:100 Time:12.1544
+Tree Setup:33 Origin:100 Time:12.1614
+Tree Setup:45 Origin:103 Time:12.1683
+Tree Setup:68 Origin:102 Time:12.1733
+Tree Setup:53 Origin:103 Time:12.1805
+Tree Setup:0 Origin:100 Time:12.185
+Tree Setup:99 Origin:103 Time:12.1875
+Tree Setup:24 Origin:102 Time:12.1923
+Tree Setup:24 Origin:101 Time:12.2102
+Tree Setup:0 Origin:102 Time:12.2175
+Tree Setup:9 Origin:103 Time:12.2265
+Tree Setup:36 Origin:103 Time:12.2347
+Tree Setup:86 Origin:101 Time:12.2373
+Tree Setup:79 Origin:101 Time:12.2599
+Tree Setup:28 Origin:102 Time:12.2616
+Tree Setup:77 Origin:101 Time:12.2838
+Tree Setup:71 Origin:103 Time:12.2877
+Tree Setup:18 Origin:101 Time:12.2895
+Tree Setup:12 Origin:100 Time:12.2961
+Tree Setup:21 Origin:103 Time:12.3096
+Tree Setup:13 Origin:100 Time:12.3113
+Tree Setup:13 Origin:103 Time:12.3167
+Tree Setup:6 Origin:100 Time:12.3193
+Tree Setup:18 Origin:103 Time:12.3258
+Tree Setup:99 Origin:101 Time:12.3429
+Tree Setup:97 Origin:102 Time:12.3507
+Tree Setup:76 Origin:101 Time:12.356
+Tree Setup:79 Origin:102 Time:12.3624
+Tree Setup:79 Origin:103 Time:12.3643
+Tree Setup:86 Origin:102 Time:12.3748
+Tree Setup:25 Origin:103 Time:12.3765
+Tree Setup:87 Origin:101 Time:12.3926
+Tree Setup:33 Origin:101 Time:12.4152
+Tree Setup:34 Origin:101 Time:12.4254
+Tree Setup:99 Origin:102 Time:12.4317
+Tree Setup:32 Origin:100 Time:12.4358
+Tree Setup:33 Origin:102 Time:12.4428
+Tree Setup:73 Origin:101 Time:12.4522
+Tree Setup:0 Origin:103 Time:12.4695
+Tree Setup:35 Origin:100 Time:12.4766
+Tree Setup:0 Origin:101 Time:12.4814
+Tree Setup:73 Origin:102 Time:12.4868
+Tree Setup:82 Origin:101 Time:12.5027
+Tree Setup:16 Origin:101 Time:12.5838
+Tree Setup:24 Origin:103 Time:12.5934
+Tree Setup:16 Origin:102 Time:12.5994
+Tree Setup:16 Origin:103 Time:12.6315
+Tree Setup:8 Origin:103 Time:12.6487
+Tree Setup:42 Origin:100 Time:12.6604
+Tree Setup:42 Origin:103 Time:12.6681
+Tree Setup:53 Origin:101 Time:12.6859
+Tree Setup:59 Origin:102 Time:12.7484
+Tree Setup:74 Origin:100 Time:12.7533
+Tree Setup:61 Origin:102 Time:12.7643
+Tree Setup:87 Origin:103 Time:12.7679
+Tree Setup:74 Origin:101 Time:12.7703
+Tree Setup:68 Origin:101 Time:12.7747
+Tree Setup:66 Origin:101 Time:12.835
+Tree Setup:66 Origin:102 Time:12.8576
+Tree Setup:64 Origin:100 Time:12.8838
+Tree Setup:60 Origin:102 Time:12.8908
+Tree Setup:64 Origin:102 Time:12.898
+Tree Setup:91 Origin:102 Time:12.9039
+Tree Setup:87 Origin:102 Time:12.9354
+Tree Setup:64 Origin:103 Time:12.9706
+Tree Setup:64 Origin:101 Time:13.0385
+Tree Setup:83 Origin:102 Time:13.0406
+Tree Setup:34 Origin:102 Time:13.053
+Tree Setup:3 Origin:102 Time:13.0781
+Tree Setup:52 Origin:100 Time:13.0913
+Tree Setup:29 Origin:100 Time:13.1055
+Tree Setup:53 Origin:102 Time:13.1157
+Tree Setup:89 Origin:102 Time:13.131
+Tree Setup:70 Origin:102 Time:13.1426
+Tree Setup:96 Origin:102 Time:13.1452
+Tree Setup:76 Origin:100 Time:13.1586
+Tree Setup:82 Origin:102 Time:13.1658
+Tree Setup:42 Origin:102 Time:13.196
+Tree Setup:81 Origin:100 Time:13.1997
+Tree Setup:23 Origin:101 Time:13.2022
+Tree Setup:93 Origin:102 Time:13.2269
+Tree Setup:31 Origin:102 Time:13.2345
+Tree Setup:43 Origin:101 Time:13.2445
+Tree Setup:91 Origin:101 Time:13.2528
+Tree Setup:95 Origin:100 Time:13.2569
+Tree Setup:103 Origin:102 Time:13.2725
+Tree Setup:66 Origin:103 Time:13.3
+Tree Setup:83 Origin:101 Time:13.3037
+Tree Setup:43 Origin:102 Time:13.3101
+Tree Setup:61 Origin:101 Time:13.3573
+Tree Setup:59 Origin:100 Time:13.3699
+Tree Setup:78 Origin:102 Time:13.3725
+Tree Setup:61 Origin:103 Time:13.3998
+Tree Setup:89 Origin:101 Time:13.4119
+Tree Setup:75 Origin:102 Time:13.4606
+Tree Setup:37 Origin:100 Time:13.465
+Tree Setup:14 Origin:101 Time:13.5161
+Tree Setup:72 Origin:101 Time:13.518
+Tree Setup:48 Origin:103 Time:13.5377
+Tree Setup:84 Origin:101 Time:13.5404
+Tree Setup:71 Origin:101 Time:13.5485
+Tree Setup:101 Origin:102 Time:13.5558
+Tree Setup:70 Origin:103 Time:13.5561
+Tree Setup:3 Origin:100 Time:13.5729
+Tree Setup:78 Origin:103 Time:13.5836
+Tree Setup:67 Origin:100 Time:13.6073
+Tree Setup:69 Origin:102 Time:13.61
+Tree Setup:69 Origin:101 Time:13.616
+Tree Setup:90 Origin:102 Time:13.6212
+Tree Setup:2 Origin:101 Time:13.6293
+Tree Setup:103 Origin:101 Time:13.7933
+Tree Setup:60 Origin:100 Time:13.8047
+Tree Setup:5 Origin:103 Time:13.8586
+Tree Setup:70 Origin:101 Time:13.8718
+Tree Setup:54 Origin:101 Time:13.893
+Tree Setup:52 Origin:101 Time:13.9413
+Tree Setup:78 Origin:101 Time:13.9439
+Tree Setup:88 Origin:102 Time:14.0377
+Tree Setup:55 Origin:102 Time:14.0793
+Tree Setup:75 Origin:101 Time:14.1741
+Tree Setup:35 Origin:101 Time:14.1743
+Tree Setup:88 Origin:101 Time:14.2075
+Tree Setup:96 Origin:101 Time:14.2215
+Tree Setup:81 Origin:101 Time:14.2938
+Tree Setup:94 Origin:102 Time:14.4216
+Tree Setup:89 Origin:103 Time:14.4376
+Tree Setup:14 Origin:102 Time:14.4421
+Tree Setup:95 Origin:101 Time:14.5045
+Tree Setup:95 Origin:102 Time:14.5242
+Tree Setup:90 Origin:103 Time:14.651
+Tree Setup:93 Origin:101 Time:14.6822
+Tree Setup:23 Origin:102 Time:14.8194
+Tree Setup:96 Origin:103 Time:14.8282
+Tree Setup:73 Origin:103 Time:14.8598
+Tree Setup:90 Origin:101 Time:14.9984
+Tree Setup:34 Origin:103 Time:15.4207
+Tree Setup:32 Origin:103 Time:15.553
+Tree Setup:29 Origin:101 Time:15.5705
+Tree Setup:33 Origin:103 Time:15.589
+Tree Setup:84 Origin:102 Time:15.6069
+Tree Setup:60 Origin:101 Time:15.6347
+Tree Setup:32 Origin:101 Time:15.8168
+Tree Setup:42 Origin:101 Time:15.9494
+Tree Setup:101 Origin:100 Time:16.1913
+Tree Setup:101 Origin:103 Time:16.2364
+Tree Setup:52 Origin:103 Time:16.4252
+Tree Setup:55 Origin:103 Time:16.5333
+Tree Setup:51 Origin:100 Time:16.5892
+Tree Setup:3 Origin:101 Time:16.8786
+Tree Setup:23 Origin:103 Time:16.9882
+Tree Setup:46 Origin:100 Time:17.0391
+Tree Setup:46 Origin:101 Time:17.0674
+Tree Setup:46 Origin:102 Time:17.0888
+Tree Setup:71 Origin:102 Time:17.1393
+Tree Setup:72 Origin:102 Time:17.1547
+Tree Setup:54 Origin:102 Time:17.2024
+Tree Setup:2 Origin:103 Time:17.2516
+Tree Setup:98 Origin:103 Time:17.28
+Tree Setup:74 Origin:103 Time:17.2821
+Tree Setup:34 Origin:100 Time:17.3987
+Tree Setup:29 Origin:103 Time:17.571
+Tree Setup:3 Origin:103 Time:17.5734
+Tree Setup:13 Origin:102 Time:17.5899
+Tree Setup:40 Origin:102 Time:17.7655
+Tree Setup:35 Origin:102 Time:18.052
+Tree Setup:81 Origin:102 Time:18.0816
+Tree Setup:62 Origin:100 Time:18.1277
+Tree Setup:31 Origin:103 Time:18.1368
+Tree Setup:60 Origin:103 Time:18.1894
+Tree Setup:59 Origin:101 Time:18.329
+Tree Setup:40 Origin:101 Time:18.4271
+Tree Setup:4 Origin:103 Time:18.9416
+Tree Setup:94 Origin:103 Time:19.0199
+Tree Setup:51 Origin:103 Time:19.1575
+Tree Setup:59 Origin:103 Time:19.3926
+Tree Setup:95 Origin:103 Time:20.1494
+Tree Setup:41 Origin:103 Time:20.1514
+Tree Setup:80 Origin:103 Time:20.1537
+Tree Setup:76 Origin:103 Time:20.2502
+Tree Setup:84 Origin:103 Time:20.283
+Tree Setup:46 Origin:103 Time:20.3089
+Tree Setup:54 Origin:103 Time:20.3686
+Tree Setup:72 Origin:103 Time:20.3838
+Tree Setup:14 Origin:103 Time:20.497
+Tree Setup:35 Origin:103 Time:20.5557
+Tree Setup:81 Origin:103 Time:20.6037
+Tree Setup:31 Origin:101 Time:20.6789
+Tree Setup:55 Origin:101 Time:20.8629
+Tree Setup:94 Origin:101 Time:21.1655
+Tree Setup:101 Origin:101 Time:21.7427
+Tree Setup:49 Origin:100 Time:21.9045
+Tree Setup:2 Origin:100 Time:22.055
+Tree Setup:51 Origin:101 Time:22.1951
+Tree Setup:57 Origin:100 Time:22.9169
+Tree Setup:51 Origin:102 Time:23.0965
+Tree Setup:103 Origin:100 Time:23.699
+Tree Setup:57 Origin:103 Time:24.0886
+0 Remaining Energy: 98.9338 Time:35 Run Counter:1
+1 Remaining Energy: 98.9326 Time:35 Run Counter:1
+2 Remaining Energy: 98.9325 Time:35 Run Counter:1
+3 Remaining Energy: 98.9294 Time:35 Run Counter:1
+4 Remaining Energy: 98.9335 Time:35 Run Counter:1
+5 Remaining Energy: 98.9328 Time:35 Run Counter:1
+6 Remaining Energy: 98.9334 Time:35 Run Counter:1
+7 Remaining Energy: 98.9339 Time:35 Run Counter:1
+8 Remaining Energy: 98.9327 Time:35 Run Counter:1
+9 Remaining Energy: 98.9304 Time:35 Run Counter:1
+10 Remaining Energy: 98.9331 Time:35 Run Counter:1
+11 Remaining Energy: 98.9326 Time:35 Run Counter:1
+12 Remaining Energy: 98.9324 Time:35 Run Counter:1
+13 Remaining Energy: 98.9321 Time:35 Run Counter:1
+14 Remaining Energy: 98.9318 Time:35 Run Counter:1
+15 Remaining Energy: 98.9333 Time:35 Run Counter:1
+16 Remaining Energy: 98.9318 Time:35 Run Counter:1
+17 Remaining Energy: 98.9328 Time:35 Run Counter:1
+18 Remaining Energy: 98.9308 Time:35 Run Counter:1
+19 Remaining Energy: 98.9339 Time:35 Run Counter:1
+20 Remaining Energy: 98.9279 Time:35 Run Counter:1
+21 Remaining Energy: 98.9303 Time:35 Run Counter:1
+22 Remaining Energy: 98.9327 Time:35 Run Counter:1
+23 Remaining Energy: 98.9315 Time:35 Run Counter:1
+24 Remaining Energy: 98.9332 Time:35 Run Counter:1
+25 Remaining Energy: 98.9307 Time:35 Run Counter:1
+26 Remaining Energy: 98.933 Time:35 Run Counter:1
+27 Remaining Energy: 98.9345 Time:35 Run Counter:1
+28 Remaining Energy: 98.9318 Time:35 Run Counter:1
+29 Remaining Energy: 98.9289 Time:35 Run Counter:1
+30 Remaining Energy: 98.9329 Time:35 Run Counter:1
+31 Remaining Energy: 98.9274 Time:35 Run Counter:1
+32 Remaining Energy: 98.9289 Time:35 Run Counter:1
+33 Remaining Energy: 98.9296 Time:35 Run Counter:1
+34 Remaining Energy: 98.9342 Time:35 Run Counter:1
+35 Remaining Energy: 98.9323 Time:35 Run Counter:1
+36 Remaining Energy: 98.9325 Time:35 Run Counter:1
+37 Remaining Energy: 98.9324 Time:35 Run Counter:1
+38 Remaining Energy: 98.9314 Time:35 Run Counter:1
+39 Remaining Energy: 98.929 Time:35 Run Counter:1
+40 Remaining Energy: 98.9332 Time:35 Run Counter:1
+41 Remaining Energy: 98.9337 Time:35 Run Counter:1
+42 Remaining Energy: 98.9291 Time:35 Run Counter:1
+43 Remaining Energy: 98.9293 Time:35 Run Counter:1
+44 Remaining Energy: 98.9293 Time:35 Run Counter:1
+45 Remaining Energy: 98.9335 Time:35 Run Counter:1
+46 Remaining Energy: 98.9331 Time:35 Run Counter:1
+47 Remaining Energy: 98.9322 Time:35 Run Counter:1
+48 Remaining Energy: 98.9327 Time:35 Run Counter:1
+49 Remaining Energy: 98.9331 Time:35 Run Counter:1
+50 Remaining Energy: 98.9295 Time:35 Run Counter:1
+51 Remaining Energy: 98.9308 Time:35 Run Counter:1
+52 Remaining Energy: 98.9301 Time:35 Run Counter:1
+53 Remaining Energy: 98.9312 Time:35 Run Counter:1
+54 Remaining Energy: 98.932 Time:35 Run Counter:1
+55 Remaining Energy: 98.9289 Time:35 Run Counter:1
+56 Remaining Energy: 98.9306 Time:35 Run Counter:1
+57 Remaining Energy: 98.9335 Time:35 Run Counter:1
+58 Remaining Energy: 98.9315 Time:35 Run Counter:1
+59 Remaining Energy: 98.931 Time:35 Run Counter:1
+60 Remaining Energy: 98.9277 Time:35 Run Counter:1
+61 Remaining Energy: 98.9309 Time:35 Run Counter:1
+62 Remaining Energy: 98.9324 Time:35 Run Counter:1
+63 Remaining Energy: 98.9323 Time:35 Run Counter:1
+64 Remaining Energy: 98.9332 Time:35 Run Counter:1
+65 Remaining Energy: 98.933 Time:35 Run Counter:1
+66 Remaining Energy: 98.9328 Time:35 Run Counter:1
+67 Remaining Energy: 98.9294 Time:35 Run Counter:1
+68 Remaining Energy: 98.931 Time:35 Run Counter:1
+69 Remaining Energy: 98.9306 Time:35 Run Counter:1
+70 Remaining Energy: 98.9274 Time:35 Run Counter:1
+71 Remaining Energy: 98.9316 Time:35 Run Counter:1
+72 Remaining Energy: 98.9316 Time:35 Run Counter:1
+73 Remaining Energy: 98.9283 Time:35 Run Counter:1
+74 Remaining Energy: 98.9294 Time:35 Run Counter:1
+75 Remaining Energy: 98.9294 Time:35 Run Counter:1
+76 Remaining Energy: 98.9334 Time:35 Run Counter:1
+77 Remaining Energy: 98.9313 Time:35 Run Counter:1
+78 Remaining Energy: 98.9274 Time:35 Run Counter:1
+79 Remaining Energy: 98.9319 Time:35 Run Counter:1
+80 Remaining Energy: 98.9338 Time:35 Run Counter:1
+81 Remaining Energy: 98.9322 Time:35 Run Counter:1
+82 Remaining Energy: 98.9332 Time:35 Run Counter:1
+83 Remaining Energy: 98.9308 Time:35 Run Counter:1
+84 Remaining Energy: 98.9318 Time:35 Run Counter:1
+85 Remaining Energy: 98.9314 Time:35 Run Counter:1
+86 Remaining Energy: 98.9292 Time:35 Run Counter:1
+87 Remaining Energy: 98.9327 Time:35 Run Counter:1
+88 Remaining Energy: 98.9273 Time:35 Run Counter:1
+89 Remaining Energy: 98.9299 Time:35 Run Counter:1
+90 Remaining Energy: 98.9284 Time:35 Run Counter:1
+91 Remaining Energy: 98.9297 Time:35 Run Counter:1
+92 Remaining Energy: 98.9346 Time:35 Run Counter:1
+93 Remaining Energy: 98.9293 Time:35 Run Counter:1
+94 Remaining Energy: 98.9297 Time:35 Run Counter:1
+95 Remaining Energy: 98.9342 Time:35 Run Counter:1
+96 Remaining Energy: 98.9278 Time:35 Run Counter:1
+97 Remaining Energy: 98.9287 Time:35 Run Counter:1
+98 Remaining Energy: 98.9335 Time:35 Run Counter:1
+99 Remaining Energy: 98.9278 Time:35 Run Counter:1
+NodeID: 100 MessagesR:0 Time:35
+NodeID: 101 MessagesR:0 Time:35
+NodeID: 102 MessagesR:0 Time:35
+NodeID: 103 MessagesR:0 Time:35
+NodeID: 100 MessagesR:10283 Time:155
+NodeID: 101 MessagesR:3683 Time:155
+NodeID: 102 MessagesR:387 Time:155
+NodeID: 103 MessagesR:1130 Time:155
+NodeID: 100 MessagesR:23208 Time:275
+NodeID: 101 MessagesR:10715 Time:275
+NodeID: 102 MessagesR:474 Time:275
+NodeID: 103 MessagesR:4572 Time:275
+0 Remaining Energy: 86.9415 Time:335 Run Counter:3000
+1 Remaining Energy: 86.9443 Time:335 Run Counter:3000
+2 Remaining Energy: 86.9068 Time:335 Run Counter:3000
+3 Remaining Energy: 86.8118 Time:335 Run Counter:3000
+4 Remaining Energy: 86.9466 Time:335 Run Counter:3000
+5 Remaining Energy: 86.9175 Time:335 Run Counter:3000
+6 Remaining Energy: 86.9366 Time:335 Run Counter:3000
+7 Remaining Energy: 86.9888 Time:335 Run Counter:3000
+8 Remaining Energy: 86.9608 Time:335 Run Counter:3000
+9 Remaining Energy: 86.9546 Time:335 Run Counter:3000
+10 Remaining Energy: 86.9327 Time:335 Run Counter:3000
+11 Remaining Energy: 86.9426 Time:335 Run Counter:3000
+12 Remaining Energy: 86.936 Time:335 Run Counter:3000
+13 Remaining Energy: 86.9793 Time:335 Run Counter:3000
+14 Remaining Energy: 86.9094 Time:335 Run Counter:3000
+15 Remaining Energy: 86.9321 Time:335 Run Counter:3000
+16 Remaining Energy: 86.9785 Time:335 Run Counter:3000
+17 Remaining Energy: 86.9319 Time:335 Run Counter:3000
+18 Remaining Energy: 86.871 Time:335 Run Counter:3000
+19 Remaining Energy: 86.9919 Time:335 Run Counter:3000
+20 Remaining Energy: 86.8401 Time:335 Run Counter:3000
+21 Remaining Energy: 86.8898 Time:335 Run Counter:3000
+22 Remaining Energy: 86.9295 Time:335 Run Counter:3000
+23 Remaining Energy: 86.9237 Time:335 Run Counter:3000
+24 Remaining Energy: 86.9341 Time:335 Run Counter:3000
+25 Remaining Energy: 86.9455 Time:335 Run Counter:3000
+26 Remaining Energy: 86.9356 Time:335 Run Counter:3000
+27 Remaining Energy: 86.989 Time:335 Run Counter:3000
+28 Remaining Energy: 86.9683 Time:335 Run Counter:3000
+29 Remaining Energy: 86.8101 Time:335 Run Counter:3000
+30 Remaining Energy: 86.9495 Time:335 Run Counter:3000
+31 Remaining Energy: 86.8694 Time:335 Run Counter:3000
+32 Remaining Energy: 86.8142 Time:335 Run Counter:3000
+33 Remaining Energy: 86.9059 Time:335 Run Counter:3000
+34 Remaining Energy: 86.986 Time:335 Run Counter:3000
+35 Remaining Energy: 86.898 Time:335 Run Counter:3000
+36 Remaining Energy: 86.9535 Time:335 Run Counter:3000
+37 Remaining Energy: 86.9839 Time:335 Run Counter:3000
+38 Remaining Energy: 86.9069 Time:335 Run Counter:3000
+39 Remaining Energy: 86.816 Time:335 Run Counter:3000
+40 Remaining Energy: 86.9709 Time:335 Run Counter:3000
+41 Remaining Energy: 86.948 Time:335 Run Counter:3000
+42 Remaining Energy: 86.8746 Time:335 Run Counter:3000
+43 Remaining Energy: 86.9022 Time:335 Run Counter:3000
+44 Remaining Energy: 86.8685 Time:335 Run Counter:3000
+45 Remaining Energy: 86.9589 Time:335 Run Counter:3000
+46 Remaining Energy: 86.9672 Time:335 Run Counter:3000
+47 Remaining Energy: 86.9256 Time:335 Run Counter:3000
+48 Remaining Energy: 86.9068 Time:335 Run Counter:3000
+49 Remaining Energy: 86.9876 Time:335 Run Counter:3000
+50 Remaining Energy: 86.9306 Time:335 Run Counter:3000
+51 Remaining Energy: 86.8807 Time:335 Run Counter:3000
+52 Remaining Energy: 86.8542 Time:335 Run Counter:3000
+53 Remaining Energy: 86.8872 Time:335 Run Counter:3000
+54 Remaining Energy: 86.9079 Time:335 Run Counter:3000
+55 Remaining Energy: 86.9062 Time:335 Run Counter:3000
+56 Remaining Energy: 86.8884 Time:335 Run Counter:3000
+57 Remaining Energy: 86.9744 Time:335 Run Counter:3000
+58 Remaining Energy: 86.9436 Time:335 Run Counter:3000
+59 Remaining Energy: 86.8859 Time:335 Run Counter:3000
+60 Remaining Energy: 86.8254 Time:335 Run Counter:3000
+61 Remaining Energy: 86.8702 Time:335 Run Counter:3000
+62 Remaining Energy: 86.9351 Time:335 Run Counter:3000
+63 Remaining Energy: 86.9847 Time:335 Run Counter:3000
+64 Remaining Energy: 86.9439 Time:335 Run Counter:3000
+65 Remaining Energy: 86.9714 Time:335 Run Counter:3000
+66 Remaining Energy: 86.9548 Time:335 Run Counter:3000
+67 Remaining Energy: 86.9075 Time:335 Run Counter:3000
+68 Remaining Energy: 86.9462 Time:335 Run Counter:3000
+69 Remaining Energy: 86.9107 Time:335 Run Counter:3000
+70 Remaining Energy: 86.8602 Time:335 Run Counter:3000
+71 Remaining Energy: 86.9107 Time:335 Run Counter:3000
+72 Remaining Energy: 86.9176 Time:335 Run Counter:3000
+73 Remaining Energy: 86.9009 Time:335 Run Counter:3000
+74 Remaining Energy: 86.8096 Time:335 Run Counter:3000
+75 Remaining Energy: 86.8617 Time:335 Run Counter:3000
+76 Remaining Energy: 86.9697 Time:335 Run Counter:3000
+77 Remaining Energy: 86.9493 Time:335 Run Counter:3000
+78 Remaining Energy: 86.8858 Time:335 Run Counter:3000
+79 Remaining Energy: 86.9527 Time:335 Run Counter:3000
+80 Remaining Energy: 86.9483 Time:335 Run Counter:3000
+81 Remaining Energy: 86.8973 Time:335 Run Counter:3000
+82 Remaining Energy: 86.958 Time:335 Run Counter:3000
+83 Remaining Energy: 86.9441 Time:335 Run Counter:3000
+84 Remaining Energy: 86.9202 Time:335 Run Counter:3000
+85 Remaining Energy: 86.9099 Time:335 Run Counter:3000
+86 Remaining Energy: 86.9333 Time:335 Run Counter:3000
+87 Remaining Energy: 86.9239 Time:335 Run Counter:3000
+88 Remaining Energy: 86.8846 Time:335 Run Counter:3000
+89 Remaining Energy: 86.8998 Time:335 Run Counter:3000
+90 Remaining Energy: 86.8563 Time:335 Run Counter:3000
+91 Remaining Energy: 86.9392 Time:335 Run Counter:3000
+92 Remaining Energy: 86.9862 Time:335 Run Counter:3000
+93 Remaining Energy: 86.8612 Time:335 Run Counter:3000
+94 Remaining Energy: 86.8688 Time:335 Run Counter:3000
+95 Remaining Energy: 86.9814 Time:335 Run Counter:3000
+96 Remaining Energy: 86.8915 Time:335 Run Counter:3000
+97 Remaining Energy: 86.9181 Time:335 Run Counter:3000
+98 Remaining Energy: 86.927 Time:335 Run Counter:3000
+99 Remaining Energy: 86.8772 Time:335 Run Counter:3000
+NodeID: 100 MessagesR:39697 Time:395
+NodeID: 101 MessagesR:16932 Time:395
+NodeID: 102 MessagesR:653 Time:395
+NodeID: 103 MessagesR:7701 Time:395
+NodeID: 100 MessagesR:56921 Time:515
+NodeID: 101 MessagesR:23469 Time:515
+NodeID: 102 MessagesR:734 Time:515
+NodeID: 103 MessagesR:10912 Time:515
+0 Remaining Energy: 74.0046 Time:635 Run Counter:6000
+1 Remaining Energy: 74.0199 Time:635 Run Counter:6000
+2 Remaining Energy: 73.9727 Time:635 Run Counter:6000
+3 Remaining Energy: 73.7972 Time:635 Run Counter:6000
+4 Remaining Energy: 74.0333 Time:635 Run Counter:6000
+5 Remaining Energy: 73.9942 Time:635 Run Counter:6000
+6 Remaining Energy: 73.9972 Time:635 Run Counter:6000
+7 Remaining Energy: 74.1226 Time:635 Run Counter:6000
+8 Remaining Energy: 74.0684 Time:635 Run Counter:6000
+9 Remaining Energy: 74.0474 Time:635 Run Counter:6000
+10 Remaining Energy: 73.9954 Time:635 Run Counter:6000
+11 Remaining Energy: 74.008 Time:635 Run Counter:6000
+12 Remaining Energy: 73.9974 Time:635 Run Counter:6000
+13 Remaining Energy: 74.0876 Time:635 Run Counter:6000
+14 Remaining Energy: 73.933 Time:635 Run Counter:6000
+15 Remaining Energy: 73.9931 Time:635 Run Counter:6000
+16 Remaining Energy: 74.0869 Time:635 Run Counter:6000
+17 Remaining Energy: 73.9871 Time:635 Run Counter:6000
+18 Remaining Energy: 73.8771 Time:635 Run Counter:6000
+19 Remaining Energy: 74.1262 Time:635 Run Counter:6000
+20 Remaining Energy: 73.8496 Time:635 Run Counter:6000
+21 Remaining Energy: 73.9157 Time:635 Run Counter:6000
+22 Remaining Energy: 73.9818 Time:635 Run Counter:6000
+23 Remaining Energy: 73.9746 Time:635 Run Counter:6000
+24 Remaining Energy: 73.9897 Time:635 Run Counter:6000
+25 Remaining Energy: 74.0381 Time:635 Run Counter:6000
+26 Remaining Energy: 73.9972 Time:635 Run Counter:6000
+27 Remaining Energy: 74.126 Time:635 Run Counter:6000
+28 Remaining Energy: 74.064 Time:635 Run Counter:6000
+29 Remaining Energy: 73.7935 Time:635 Run Counter:6000
+30 Remaining Energy: 74.0257 Time:635 Run Counter:6000
+31 Remaining Energy: 73.8986 Time:635 Run Counter:6000
+32 Remaining Energy: 73.8051 Time:635 Run Counter:6000
+33 Remaining Energy: 73.9685 Time:635 Run Counter:6000
+34 Remaining Energy: 74.1242 Time:635 Run Counter:6000
+35 Remaining Energy: 73.9055 Time:635 Run Counter:6000
+36 Remaining Energy: 74.0573 Time:635 Run Counter:6000
+37 Remaining Energy: 74.1122 Time:635 Run Counter:6000
+38 Remaining Energy: 73.9433 Time:635 Run Counter:6000
+39 Remaining Energy: 73.8063 Time:635 Run Counter:6000
+40 Remaining Energy: 74.0874 Time:635 Run Counter:6000
+41 Remaining Energy: 74.0281 Time:635 Run Counter:6000
+42 Remaining Energy: 73.9018 Time:635 Run Counter:6000
+43 Remaining Energy: 73.9366 Time:635 Run Counter:6000
+44 Remaining Energy: 73.8797 Time:635 Run Counter:6000
+45 Remaining Energy: 74.0681 Time:635 Run Counter:6000
+46 Remaining Energy: 74.0704 Time:635 Run Counter:6000
+47 Remaining Energy: 73.9793 Time:635 Run Counter:6000
+48 Remaining Energy: 73.9731 Time:635 Run Counter:6000
+49 Remaining Energy: 74.1154 Time:635 Run Counter:6000
+50 Remaining Energy: 74.0014 Time:635 Run Counter:6000
+51 Remaining Energy: 73.8989 Time:635 Run Counter:6000
+52 Remaining Energy: 73.8779 Time:635 Run Counter:6000
+53 Remaining Energy: 73.902 Time:635 Run Counter:6000
+54 Remaining Energy: 73.9276 Time:635 Run Counter:6000
+55 Remaining Energy: 73.9649 Time:635 Run Counter:6000
+56 Remaining Energy: 73.9164 Time:635 Run Counter:6000
+57 Remaining Energy: 74.0996 Time:635 Run Counter:6000
+58 Remaining Energy: 74.0325 Time:635 Run Counter:6000
+59 Remaining Energy: 73.9312 Time:635 Run Counter:6000
+60 Remaining Energy: 73.8207 Time:635 Run Counter:6000
+61 Remaining Energy: 73.8759 Time:635 Run Counter:6000
+62 Remaining Energy: 73.996 Time:635 Run Counter:6000
+63 Remaining Energy: 74.1004 Time:635 Run Counter:6000
+64 Remaining Energy: 74.0109 Time:635 Run Counter:6000
+65 Remaining Energy: 74.072 Time:635 Run Counter:6000
+66 Remaining Energy: 74.0385 Time:635 Run Counter:6000
+67 Remaining Energy: 73.969 Time:635 Run Counter:6000
+68 Remaining Energy: 74.0179 Time:635 Run Counter:6000
+69 Remaining Energy: 73.9428 Time:635 Run Counter:6000
+70 Remaining Energy: 73.8813 Time:635 Run Counter:6000
+71 Remaining Energy: 73.9216 Time:635 Run Counter:6000
+72 Remaining Energy: 73.9459 Time:635 Run Counter:6000
+73 Remaining Energy: 73.9552 Time:635 Run Counter:6000
+74 Remaining Energy: 73.7999 Time:635 Run Counter:6000
+75 Remaining Energy: 73.8858 Time:635 Run Counter:6000
+76 Remaining Energy: 74.0832 Time:635 Run Counter:6000
+77 Remaining Energy: 74.0263 Time:635 Run Counter:6000
+78 Remaining Energy: 73.9286 Time:635 Run Counter:6000
+79 Remaining Energy: 74.0344 Time:635 Run Counter:6000
+80 Remaining Energy: 74.0284 Time:635 Run Counter:6000
+81 Remaining Energy: 73.9104 Time:635 Run Counter:6000
+82 Remaining Energy: 74.0495 Time:635 Run Counter:6000
+83 Remaining Energy: 74.0206 Time:635 Run Counter:6000
+84 Remaining Energy: 73.9578 Time:635 Run Counter:6000
+85 Remaining Energy: 73.9517 Time:635 Run Counter:6000
+86 Remaining Energy: 74.0122 Time:635 Run Counter:6000
+87 Remaining Energy: 73.9797 Time:635 Run Counter:6000
+88 Remaining Energy: 73.9255 Time:635 Run Counter:6000
+89 Remaining Energy: 73.9412 Time:635 Run Counter:6000
+90 Remaining Energy: 73.8588 Time:635 Run Counter:6000
+91 Remaining Energy: 74.0148 Time:635 Run Counter:6000
+92 Remaining Energy: 74.1216 Time:635 Run Counter:6000
+93 Remaining Energy: 73.8536 Time:635 Run Counter:6000
+94 Remaining Energy: 73.8831 Time:635 Run Counter:6000
+95 Remaining Energy: 74.1121 Time:635 Run Counter:6000
+96 Remaining Energy: 73.9375 Time:635 Run Counter:6000
+97 Remaining Energy: 73.9887 Time:635 Run Counter:6000
+98 Remaining Energy: 74.0067 Time:635 Run Counter:6000
+99 Remaining Energy: 73.9135 Time:635 Run Counter:6000
+NodeID: 100 MessagesR:69237 Time:635
+NodeID: 101 MessagesR:30270 Time:635
+NodeID: 102 MessagesR:948 Time:635
+NodeID: 103 MessagesR:14498 Time:635
+NodeID: 100 MessagesR:84739 Time:755
+NodeID: 101 MessagesR:36490 Time:755
+NodeID: 102 MessagesR:1114 Time:755
+NodeID: 103 MessagesR:17988 Time:755
+NodeID: 100 MessagesR:99103 Time:875
+NodeID: 101 MessagesR:43096 Time:875
+NodeID: 102 MessagesR:1244 Time:875
+NodeID: 103 MessagesR:21276 Time:875

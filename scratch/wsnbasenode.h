@@ -18,6 +18,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <set>
+#include <map>
 #include <exception>
 
 #include "constants.h"
@@ -25,6 +26,71 @@
 using namespace ns3;
 
 namespace ns3 {  
+
+class MessageGenerator{
+  public:
+
+  	MessageGenerator(int nodecount, const char * filename){//loads set of numbers from a file instead of randomly. For testing
+  		this->nodecount = nodecount;
+  		srand ( time(NULL) );
+
+  		fn = (char*)filename;
+  		myfile.open(filename);
+
+  		//myfile = ifstream (filename);
+
+  	}
+
+
+  	map<int, bool>  generateRandomMessages(){
+
+  		return generatemessages();
+
+  	}
+
+  static ifstream  myfile;
+
+  private:
+  	int nodecount;
+  	map<int, bool> generatemessages(){
+  		int num_mess_gen = int((double(5)/(double)nodecount) * double(nodecount));
+  		map<int, bool> datamap;
+
+  		for (int i = 0; i < num_mess_gen; i++){
+  			int rand_node = rand() % NUMBER_OF_NODES;
+
+  			rand_node = getNextint();
+  		    datamap[rand_node] = true;
+
+  		}
+
+  		return datamap;
+  	}
+
+
+  	char * fn;
+
+  	int getNextint(){
+  		string line;
+  		int data = -1;
+  		if (myfile.is_open())
+  		{
+  			if ( myfile.good() )
+  			{
+  				getline (myfile,line);
+  				data = atoi(line.c_str());//istringstream ( line ) >> data;// = (int)line;
+  			}else{
+  				myfile.close();
+  				myfile.open(fn);// = ifstream (fn);
+  				data = getNextint();
+  			}
+  			return data;
+
+  		}
+  		return -1;
+  	}
+
+  };
 
   class WSNBaseNode: public Node{
         public:
@@ -78,12 +144,39 @@ namespace ns3 {
 				return -2;
 			}
 
+			static MessageGenerator MG;
+			static int CurRunCount;
+			static map<int, bool> datamap;
+			bool GenerateMessage(int runcount){
+				if (CurRunCount == runcount){
+					//Already configured for this run
+					return datamap[NodeID];
+				}else{
+					//getvals for this run
+					datamap = MG.generateRandomMessages();
+					CurRunCount = runcount;
+					return datamap[NodeID];
+				}
+
+				return false;
+			}
+
 			vector<neighbor> oneHopNeighbors;
 			set<NODE_ID> children;
 		    NodeContainer childrenNodes;
 		    NodeContainer neighbors;
 
         };
+
+
+
+
+
+  ifstream MessageGenerator::myfile;
+  MessageGenerator WSNBaseNode::MG(100,"/home/chabli/RandomNodalOutput.txt");
+  int WSNBaseNode::CurRunCount = -1;
+  map<int, bool> WSNBaseNode::datamap;
+
 
 }
 

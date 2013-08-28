@@ -98,7 +98,6 @@ main (int argc, char *argv[])
    */
   //double offset = 81;
 
-
  // LogComponentEnable("OlsrRoutingProtocol", LOG_LEVEL_ALL);
   //LogComponentEnable("SimpleRouting", LOG_LEVEL_ALL);
 
@@ -342,9 +341,9 @@ main (int argc, char *argv[])
   // configure radio energy model
   radioEnergyHelper.Set ("TxCurrentA", DoubleValue (0.017));//TX -17dbm:10ma, -3dbm:13ma, 3dbm:17ma
   radioEnergyHelper.Set ("RxCurrentA", DoubleValue (0.016));//Recieve Mode
-  radioEnergyHelper.Set ("IdleCurrentA", DoubleValue (0.008)); //Idle Mode
+  radioEnergyHelper.Set ("IdleCurrentA", DoubleValue (0.0015)); //Idle Mode
   radioEnergyHelper.Set ("CcaBusyCurrentA", DoubleValue (0.008)); //same as idle
-  radioEnergyHelper.Set ("SwitchingCurrentA", DoubleValue (0.008)); //same as idle
+  radioEnergyHelper.Set ("SwitchingCurrentA", DoubleValue (0.0015)); //same as idle
   // install device model
   DeviceEnergyModelContainer deviceModels = radioEnergyHelper.Install (sensordevices, sources);
   //DeviceEnergyModelContainer deviceModels = radioEnergyHelper.Install (sinkdevices, sources);

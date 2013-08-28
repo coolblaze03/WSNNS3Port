@@ -303,9 +303,14 @@ counter++;
 
         	  if (remainingenergy > 0){
 				 Simulator::Schedule(Seconds(0.01), &ns3::SensorApplication::SendRandomMessage,this);
-				 int rnum = SensorNodePtr->getRandomNumber() % 100 + 1;
 
-				 if (rnum == 9 || rnum == 24 || rnum == 46 || rnum == 75 || rnum == 87){
+				 //int rnum = SensorNodePtr->getRandomNumber() % 100 + 1;
+				// if (rnum == 9 || rnum == 24 || rnum == 46 || rnum == 75 || rnum == 87){
+				//	 GenerateDataMessageToSink();
+				 //}
+
+				 bool DoSend = SensorNodePtr->GenerateMessage(counter);
+				 if (DoSend){
 					 GenerateDataMessageToSink();
 				 }
 

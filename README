@@ -1,1 +1,9 @@
-h
+This is my NS3 Wireless Sensor Network (WSN) Research.
+
+Enclosed in the Scratch Folder you will find all source for the network. 
+
+It consist of a variation of a multi sink network. It uses a very simple rounding protocol to save time and nodal resources.
+This simple Routing implementation will also in the future allow piggy backing of data over the protocol with 
+increased message overhead but minimize the number of messages being sent as a whole. 
+
+Its still a very much work in progress and any feedback is much appreciated. 

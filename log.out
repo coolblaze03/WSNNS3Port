@@ -690,3 +690,7 @@ NodeID: 100 MessagesR:0 Time:35
 NodeID: 101 MessagesR:0 Time:35
 NodeID: 102 MessagesR:0 Time:35
 NodeID: 103 MessagesR:0 Time:35
+NodeID: 100 MessagesR:8651 Time:155
+NodeID: 101 MessagesR:3290 Time:155
+NodeID: 102 MessagesR:1187 Time:155
+NodeID: 103 MessagesR:6521 Time:155

@@ -1,6 +1,6 @@
-# project ns (3.12.1) configured on Mon Jun 11 16:11:53 2012 by
+# project ns (3.12.1) configured on Fri Aug 30 13:13:33 2013 by
 # waf 1.5.16 (abi 7, python 20605f0 on linux2)
-# using ./waf -d debug --enable-examples --enable-tests configure
+# using ./waf configure
 #
 
 ----------------------------------------
@@ -614,7 +614,7 @@ not found
 --------------------------------------------------------------
 Checking for program mpic++
   find program=['mpic++'] paths=[] var='MPI'
-  -> ''
+  -> '/usr/bin/mpic++'
 
 --------------------------------------------------------------
 Checking for program sudo

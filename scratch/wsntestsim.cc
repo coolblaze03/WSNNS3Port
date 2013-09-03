@@ -148,9 +148,9 @@ main (int argc, char *argv[])
   
       Ptr<WSNSinkNode> SinkNode = CreateObject<WSNSinkNode>();
       SinkNode->NodeID = i+100;
-      if (i == 0){
+      //if (i == 0){
         SinkNode->Active = true;
-      }
+      //}
 
       SinkNodes.Add(SinkNode);
 

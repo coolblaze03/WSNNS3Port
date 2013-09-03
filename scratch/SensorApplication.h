@@ -285,7 +285,7 @@ counter++;
           		char buffer[33];
 
           		sprintf(buffer, "%d",SensorNodePtr->NodeID);
-          		cout<<"Node: "<<buffer<<"Is Dead :"<<tempdeadcounter<<" Messages Sent:"<<messagesSent<< " Time: " <<Simulator::Now ().GetSeconds()<<endl;
+          		cout<<"Node: "<<buffer<<"Is Dead :"<<tempdeadcounter<<" Messages Sent:"<<messagesSent<<" Messages Routed:" << SensorNodePtr->routingcounter <<" Time: " <<Simulator::Now ().GetSeconds()<<endl;
           		tempdeadcounter++;
           		a8();
           	}else{

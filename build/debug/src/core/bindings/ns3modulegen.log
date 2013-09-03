@@ -8,7 +8,7 @@
   warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
 /home/chabli/tarballs/ns-allinone-3.12.1/ns-3.12.1/src/core/bindings/modulegen__gcc_ILP32.py:9: UserWarning: exception TypeLookupError(['std::_List_const_iterator< ns3::AttributeConstructionList::Item >'],) in wrapper public: retval? ???::End (params?) const;
   warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
-/home/chabli/tarballs/ns-allinone-3.12.1/ns-3.12.1/src/core/bindings/modulegen__gcc_ILP32.py:9: UserWarning: exception TypeLookupError(['ns3::Ptr< ns3::EventImpl > &'],) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x8c38b6c>
+/home/chabli/tarballs/ns-allinone-3.12.1/ns-3.12.1/src/core/bindings/modulegen__gcc_ILP32.py:9: UserWarning: exception TypeLookupError(['ns3::Ptr< ns3::EventImpl > &'],) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x86e6d4c>
   warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
 /home/chabli/tarballs/ns-allinone-3.12.1/ns-3.12.1/src/core/bindings/modulegen__gcc_ILP32.py:9: UserWarning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: retval? ???::PeekEventImpl (params?) const;
   warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
@@ -26,9 +26,9 @@
   warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
 /home/chabli/tarballs/ns-allinone-3.12.1/ns-3.12.1/src/core/bindings/modulegen__gcc_ILP32.py:9: UserWarning: exception TypeLookupError(['short unsigned int'],) in wrapper None
   warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
-/home/chabli/tarballs/ns-allinone-3.12.1/ns-3.12.1/src/core/bindings/modulegen__gcc_ILP32.py:9: UserWarning: exception TypeLookupError(['std::pair< double, double >'],) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x8e01eec>
+/home/chabli/tarballs/ns-allinone-3.12.1/ns-3.12.1/src/core/bindings/modulegen__gcc_ILP32.py:9: UserWarning: exception TypeLookupError(['std::pair< double, double >'],) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x89fb16c>
   warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
-/home/chabli/tarballs/ns-allinone-3.12.1/ns-3.12.1/src/core/bindings/modulegen__gcc_ILP32.py:9: UserWarning: exception TypeLookupError(['std::pair< double, double >'],) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x8e01f0c>
+/home/chabli/tarballs/ns-allinone-3.12.1/ns-3.12.1/src/core/bindings/modulegen__gcc_ILP32.py:9: UserWarning: exception TypeLookupError(['std::pair< double, double >'],) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x89fb18c>
   warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
 /home/chabli/tarballs/ns-allinone-3.12.1/ns-3.12.1/src/core/bindings/modulegen__gcc_ILP32.py:9: UserWarning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper None
   warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
@@ -40,7 +40,7 @@
   warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
 /home/chabli/tarballs/ns-allinone-3.12.1/ns-3.12.1/src/core/bindings/modulegen__gcc_ILP32.py:9: UserWarning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: virtual retval? ???::ScheduleWithContext (params?) = 0;
   warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
-/home/chabli/tarballs/ns-allinone-3.12.1/ns-3.12.1/src/core/bindings/modulegen__gcc_ILP32.py:9: UserWarning: exception TypeLookupError(['ns3::Callback< void, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'],) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x8edff0c>
+/home/chabli/tarballs/ns-allinone-3.12.1/ns-3.12.1/src/core/bindings/modulegen__gcc_ILP32.py:9: UserWarning: exception TypeLookupError(['ns3::Callback< void, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'],) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x8ae33cc>
   warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
 /home/chabli/tarballs/ns-allinone-3.12.1/ns-3.12.1/src/core/bindings/modulegen__gcc_ILP32.py:9: UserWarning: exception TypeLookupError(['timeval *'],) in wrapper protected: retval? ???::NsToTimeval (params?);
   warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
@@ -74,19 +74,19 @@
   warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
 /home/chabli/tarballs/ns-allinone-3.12.1/ns-3.12.1/src/core/bindings/modulegen__gcc_ILP32.py:9: UserWarning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper public: retval? ???::ScheduleRealtimeWithContext (params?);
   warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
-/home/chabli/tarballs/ns-allinone-3.12.1/ns-3.12.1/src/core/bindings/modulegen__gcc_ILP32.py:9: UserWarning: exception TypeLookupError(['ns3::LogNodePrinter'],) in wrapper <pybindgen.function.Function object at 0x92d1e2c>
+/home/chabli/tarballs/ns-allinone-3.12.1/ns-3.12.1/src/core/bindings/modulegen__gcc_ILP32.py:9: UserWarning: exception TypeLookupError(['ns3::LogNodePrinter'],) in wrapper <pybindgen.function.Function object at 0x8ece1ac>
   warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
-/home/chabli/tarballs/ns-allinone-3.12.1/ns-3.12.1/src/core/bindings/modulegen__gcc_ILP32.py:9: UserWarning: exception TypeLookupError(['ns3::LogTimePrinter'],) in wrapper <pybindgen.function.Function object at 0x92d1fec>
+/home/chabli/tarballs/ns-allinone-3.12.1/ns-3.12.1/src/core/bindings/modulegen__gcc_ILP32.py:9: UserWarning: exception TypeLookupError(['ns3::LogTimePrinter'],) in wrapper <pybindgen.function.Function object at 0x8ece38c>
   warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
-/home/chabli/tarballs/ns-allinone-3.12.1/ns-3.12.1/src/core/bindings/modulegen__gcc_ILP32.py:9: UserWarning: exception TypeLookupError(['ns3::LogNodePrinter'],) in wrapper <pybindgen.function.Function object at 0x92d51cc>
+/home/chabli/tarballs/ns-allinone-3.12.1/ns-3.12.1/src/core/bindings/modulegen__gcc_ILP32.py:9: UserWarning: exception TypeLookupError(['ns3::LogNodePrinter'],) in wrapper <pybindgen.function.Function object at 0x8ece52c>
   warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
-/home/chabli/tarballs/ns-allinone-3.12.1/ns-3.12.1/src/core/bindings/modulegen__gcc_ILP32.py:9: UserWarning: exception TypeLookupError(['ns3::LogTimePrinter'],) in wrapper <pybindgen.function.Function object at 0x92d52cc>
+/home/chabli/tarballs/ns-allinone-3.12.1/ns-3.12.1/src/core/bindings/modulegen__gcc_ILP32.py:9: UserWarning: exception TypeLookupError(['ns3::LogTimePrinter'],) in wrapper <pybindgen.function.Function object at 0x8ece62c>
   warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
-/home/chabli/tarballs/ns-allinone-3.12.1/ns-3.12.1/src/core/bindings/modulegen__gcc_ILP32.py:9: UserWarning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper <pybindgen.function.Function object at 0x92e208c>
+/home/chabli/tarballs/ns-allinone-3.12.1/ns-3.12.1/src/core/bindings/modulegen__gcc_ILP32.py:9: UserWarning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper <pybindgen.function.Function object at 0x8edc3ec>
   warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
-/home/chabli/tarballs/ns-allinone-3.12.1/ns-3.12.1/src/core/bindings/modulegen__gcc_ILP32.py:9: UserWarning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper <pybindgen.function.Function object at 0x935eb4c>
+/home/chabli/tarballs/ns-allinone-3.12.1/ns-3.12.1/src/core/bindings/modulegen__gcc_ILP32.py:9: UserWarning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper <pybindgen.function.Function object at 0x8f56eac>
   warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
-/home/chabli/tarballs/ns-allinone-3.12.1/ns-3.12.1/src/core/bindings/modulegen__gcc_ILP32.py:9: UserWarning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper <pybindgen.function.Function object at 0x935ed4c>
+/home/chabli/tarballs/ns-allinone-3.12.1/ns-3.12.1/src/core/bindings/modulegen__gcc_ILP32.py:9: UserWarning: exception TypeConfigurationError('Missing transfer_ownership option',) in wrapper <pybindgen.function.Function object at 0x8f590cc>
   warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
 /home/chabli/tarballs/ns-allinone-3.12.1/pybindgen-0.15.0.795/pybindgen/cppclass_typehandlers.py:1134: UserWarning: Returning shared pointers is dangerous!  The C++ API should be redesigned to avoid this situation.
   warnings.warn("Returning shared pointers is dangerous!"

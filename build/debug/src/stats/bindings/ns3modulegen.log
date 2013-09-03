@@ -1,5 +1,5 @@
 >>>>>>>>>>>>>>>> []
-/home/chabli/tarballs/ns-allinone-3.12.1/ns-3.12.1/src/stats/bindings/modulegen__gcc_ILP32.py:9: UserWarning: exception TypeConfigurationError('direction not given',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x953d9ec>
+/home/chabli/tarballs/ns-allinone-3.12.1/ns-3.12.1/src/stats/bindings/modulegen__gcc_ILP32.py:9: UserWarning: exception TypeConfigurationError('direction not given',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x9427b8c>
   warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
 /home/chabli/tarballs/ns-allinone-3.12.1/ns-3.12.1/src/stats/bindings/modulegen__gcc_ILP32.py:9: UserWarning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::CopyAllFrom (params?);
   warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
@@ -29,19 +29,19 @@
   warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
 /home/chabli/tarballs/ns-allinone-3.12.1/ns-3.12.1/src/stats/bindings/modulegen__gcc_ILP32.py:9: UserWarning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Write (params?);
   warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
-/home/chabli/tarballs/ns-allinone-3.12.1/ns-3.12.1/src/stats/bindings/modulegen__gcc_ILP32.py:9: UserWarning: exception TypeLookupError(['ns3::Ptr< ns3::EventImpl > &'],) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x97d10ac>
+/home/chabli/tarballs/ns-allinone-3.12.1/ns-3.12.1/src/stats/bindings/modulegen__gcc_ILP32.py:9: UserWarning: exception TypeLookupError(['ns3::Ptr< ns3::EventImpl > &'],) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x95713ac>
   warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
 /home/chabli/tarballs/ns-allinone-3.12.1/ns-3.12.1/src/stats/bindings/modulegen__gcc_ILP32.py:9: UserWarning: exception TypeConfigurationError('Either caller_owns_return or self.reference_existing_object must be given',) in wrapper public: retval? ???::PeekEventImpl (params?) const;
   warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
 /home/chabli/tarballs/ns-allinone-3.12.1/ns-3.12.1/src/stats/bindings/modulegen__gcc_ILP32.py:9: UserWarning: exception TypeLookupError(['std::ostream &'],) in wrapper public: retval? ???::Print (params?) const;
   warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
-/home/chabli/tarballs/ns-allinone-3.12.1/ns-3.12.1/src/stats/bindings/modulegen__gcc_ILP32.py:9: UserWarning: exception TypeConfigurationError('direction not given',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x9592bec>
+/home/chabli/tarballs/ns-allinone-3.12.1/ns-3.12.1/src/stats/bindings/modulegen__gcc_ILP32.py:9: UserWarning: exception TypeConfigurationError('direction not given',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x95d2f0c>
   warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
 /home/chabli/tarballs/ns-allinone-3.12.1/ns-3.12.1/src/stats/bindings/modulegen__gcc_ILP32.py:9: UserWarning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::GetBytes (params?) const;
   warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
 /home/chabli/tarballs/ns-allinone-3.12.1/ns-3.12.1/src/stats/bindings/modulegen__gcc_ILP32.py:9: UserWarning: exception TypeConfigurationError('direction not given',) in wrapper public: retval? ???::Set (params?);
   warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
-/home/chabli/tarballs/ns-allinone-3.12.1/ns-3.12.1/src/stats/bindings/modulegen__gcc_ILP32.py:9: UserWarning: exception TypeConfigurationError('direction not given',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x95b286c>
+/home/chabli/tarballs/ns-allinone-3.12.1/ns-3.12.1/src/stats/bindings/modulegen__gcc_ILP32.py:9: UserWarning: exception TypeConfigurationError('direction not given',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x95f55ac>
   warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
 /home/chabli/tarballs/ns-allinone-3.12.1/pybindgen-0.15.0.795/pybindgen/settings.py:85: DeprecationWarning: The option pybindgen.settings.deprecated_virtuals has not been set.  I am going to assume the value of True, to preserve backward compatibility, but the default value will change in the future, and the option will eventually disappear.
   DeprecationWarning)
@@ -57,7 +57,7 @@
   warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
 /home/chabli/tarballs/ns-allinone-3.12.1/ns-3.12.1/src/stats/bindings/modulegen__gcc_ILP32.py:9: UserWarning: exception TypeLookupError(['std::ostream &'],) in wrapper public: virtual retval? ???::Print (params?) const = 0;
   warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
-/home/chabli/tarballs/ns-allinone-3.12.1/ns-3.12.1/src/stats/bindings/modulegen__gcc_ILP32.py:9: UserWarning: exception TypeConfigurationError('direction not given',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x993698c>
+/home/chabli/tarballs/ns-allinone-3.12.1/ns-3.12.1/src/stats/bindings/modulegen__gcc_ILP32.py:9: UserWarning: exception TypeConfigurationError('direction not given',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x9743c8c>
   warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
 /home/chabli/tarballs/ns-allinone-3.12.1/ns-3.12.1/src/stats/bindings/modulegen__gcc_ILP32.py:9: UserWarning: exception TypeLookupError(['ns3::Callback< ns3::ObjectBase *, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty, ns3::empty >'],) in wrapper public: retval? ???::GetConstructor (params?) const;
   warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
@@ -73,9 +73,9 @@
   warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
 /home/chabli/tarballs/ns-allinone-3.12.1/ns-3.12.1/src/stats/bindings/modulegen__gcc_ILP32.py:9: UserWarning: exception TypeLookupError(['std::_List_iterator< std::pair< std::basic_string< char, std::char_traits< char >, std::allocator< char > >, std::basic_string< char, std::char_traits< char >, std::allocator< char > > > >'],) in wrapper public: retval? ???::MetadataEnd (params?);
   warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
-/home/chabli/tarballs/ns-allinone-3.12.1/ns-3.12.1/src/stats/bindings/modulegen__gcc_ILP32.py:9: UserWarning: exception TypeConfigurationError('direction not given',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x9c875ec>
+/home/chabli/tarballs/ns-allinone-3.12.1/ns-3.12.1/src/stats/bindings/modulegen__gcc_ILP32.py:9: UserWarning: exception TypeConfigurationError('direction not given',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x9ab562c>
   warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
-/home/chabli/tarballs/ns-allinone-3.12.1/ns-3.12.1/src/stats/bindings/modulegen__gcc_ILP32.py:9: UserWarning: exception TypeConfigurationError('direction not given',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x9c8760c>
+/home/chabli/tarballs/ns-allinone-3.12.1/ns-3.12.1/src/stats/bindings/modulegen__gcc_ILP32.py:9: UserWarning: exception TypeConfigurationError('direction not given',) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x9ab564c>
   warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
 /home/chabli/tarballs/ns-allinone-3.12.1/ns-3.12.1/src/stats/bindings/modulegen__gcc_ILP32.py:9: UserWarning: exception TypeLookupError(['std::ostream &'],) in wrapper public: retval? ???::PrintByteTags (params?) const;
   warnings.warn("exception %r in wrapper %s" % (exception, wrapper))

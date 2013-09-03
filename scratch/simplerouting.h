@@ -382,6 +382,7 @@ RoutingProtocol::RouteInput (Ptr<const Packet> p, const Ipv4Header &header, Ptr<
                              LocalDeliverCallback lcb, ErrorCallback ecb)
 {
   //NS_LOG_FUNCTION (header.GetDestination ());
+  DynamicCast <WSNBaseNode>(GetObject<Node> ())->routingcounter++;
   NS_LOG_FUNCTION (this << "ME: "<< m_ipv4->GetAddress (1, 0).GetLocal() << "->" << "RI" << "->" << header.GetDestination ());
   if (header.GetDestination () == m_address)
     {

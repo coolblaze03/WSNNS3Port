@@ -15,9 +15,9 @@
   warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
 /home/chabli/tarballs/ns-allinone-3.12.1/ns-3.12.1/src/propagation/bindings/modulegen__gcc_ILP32.py:9: UserWarning: exception TypeLookupError(['short unsigned int'],) in wrapper None
   warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
-/home/chabli/tarballs/ns-allinone-3.12.1/ns-3.12.1/src/propagation/bindings/modulegen__gcc_ILP32.py:9: UserWarning: exception TypeLookupError(['std::pair< double, double >'],) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x8cb9b4c>
+/home/chabli/tarballs/ns-allinone-3.12.1/ns-3.12.1/src/propagation/bindings/modulegen__gcc_ILP32.py:9: UserWarning: exception TypeLookupError(['std::pair< double, double >'],) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x8f4f72c>
   warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
-/home/chabli/tarballs/ns-allinone-3.12.1/ns-3.12.1/src/propagation/bindings/modulegen__gcc_ILP32.py:9: UserWarning: exception TypeLookupError(['std::pair< double, double >'],) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x8cb9b6c>
+/home/chabli/tarballs/ns-allinone-3.12.1/ns-3.12.1/src/propagation/bindings/modulegen__gcc_ILP32.py:9: UserWarning: exception TypeLookupError(['std::pair< double, double >'],) in wrapper <pybindgen.cppmethod.CppConstructor object at 0x8f4f74c>
   warnings.warn("exception %r in wrapper %s" % (exception, wrapper))
 /home/chabli/tarballs/ns-allinone-3.12.1/ns-3.12.1/src/propagation/bindings/modulegen__gcc_ILP32.py:9: UserWarning: exception TypeLookupError(['ns3::Ptr< ns3::MobilityModel >', 'ns3::MobilityModel *'],) in wrapper public: virtual retval? ???::GetDelay (params?) const = 0;
   warnings.warn("exception %r in wrapper %s" % (exception, wrapper))

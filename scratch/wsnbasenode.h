@@ -103,10 +103,12 @@ class MessageGenerator{
 				x = getRandomNumber() % FIELD_WIDTH;
 				y = getRandomNumber() % FIELD_HEIGHT;
 				seqint = 0;
+				routingcounter = 0;
         	}
         	int NodeID;
             int x;
             int y;
+            int routingcounter;
             vector<int> processedSeq;
             int seqint;
             set<NODE_ID> duplicated;
